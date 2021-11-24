@@ -1,0 +1,1677 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<Application xmlns='http://schemas.microsoft.com/windows/2009/Ribbon'>
+  <!-- Commands section -->
+  <Application.Commands>
+    <Command Name="ApplicationMenu"
+						 Comment=""
+						 Symbol="ID_APPLICATION_MENU"
+						 Id="10001" >
+      <Command.LabelTitle>
+        <String Id ="10011">Application Menu</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="QuickAccessToolbar"
+						 Comment=""
+						 Symbol="ID_QUICK_ACCESS_TOOLBAR"
+						 Id="10002" >
+      <Command.LabelTitle>
+        <String Id ="10012">Quick Access Toolbar</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdFile"
+						 Comment="These comments are optional and are inserted into the header file."
+						 Symbol="IDC_CMD_FILE"
+						 Id="10000" >
+      <Command.LabelTitle>
+        <String Id ="10010">File</String>
+      </Command.LabelTitle>
+    </Command>
+    <!-- Optional Symbol and Id properties are not defined for the following commands.
+		A Symbol same as the name of the command 
+		and a valid Id for this command will be automatically generated. -->
+    <Command Name="cmdGroup1">
+      <!-- This image is used for when the group shrinks into a "pop-up".  The other groups
+			in the markup don't display as pop-ups, so we don't specify an image for them.  -->
+      <Command.SmallImages>
+        <Image Id="10020">ribbon/File/New.png</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="cmdGroup2"/>
+    <Command Name="cmdGroup3"/>
+    <Command Name="cmdGroup4"/>
+    <Command Name="cmdGroup5"/>
+    <Command Name="cmdGroup6"/>
+    <Command Name="cmdGroup7"/>
+    <Command Name="cmdGroupJustification">
+      <Command.LabelTitle>
+        <String Id ="10030">Justification</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdGroupVerticalPosition">
+      <Command.LabelTitle>
+        <String Id ="10040">Vertical Position</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdGroupLineSpacing">
+      <Command.LabelTitle>
+        <String Id ="10050">Line Spacing</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdGroupCase">
+      <Command.LabelTitle>
+        <String Id ="10060">Case</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdGroupAlignAndDistribute">
+      <Command.LabelTitle>
+        <String Id ="10070">Align &amp; Distribute</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdGroupBorderPosition">
+      <Command.LabelTitle>
+        <String Id ="10080">Border Position</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdGroupPenStyle">
+      <Command.LabelTitle>
+        <String Id ="10090">Pen Style</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdGroupPalettes">
+      <Command.LabelTitle>
+        <String Id ="10100">Palettes</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdFileNewDrawing" Symbol="ID_CMD_FILE_NEW_DRAWING" Id="40100">
+      <Command.LabelTitle>
+        <String Id ="10110">New Document</String>
+      </Command.LabelTitle>
+      <!-- Providing both large and small images isn't required, but it usually improves the look
+			of your application if the control size changes. -->
+      <Command.LargeImages>
+        <Image Id="10111">ribbon/File/New.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdFileOpen" Symbol="ID_CMD_FILE_OPEN" Id="0xE101">
+      <Command.LabelTitle>
+        <String Id ="10120">Open</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10121">ribbon/File/Open.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdFileLoadLayer" Symbol="ID_CMD_FILE_LOAD_LAYER" Id="25002">
+      <Command.LabelTitle>
+        <String Id ="10130">Load Layer</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10131">ribbon/File/LoadLayer.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdFileRecent" Symbol="ID_CMD_FILE_RECENT" Id="25003">
+      <Command.LabelTitle>
+        <String Id ="10140">Open Recent</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10141">ribbon/File/Recent.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdFileSave" Symbol="ID_CMD_FILE_SAVE" Id="0xE103">
+      <Command.LabelTitle>
+        <String Id ="10150">Save</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10151">ribbon/File/Save.png</Image>
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Id="10152">ribbon/Save20x20.png</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="cmdFileSaveAs" Symbol="ID_CMD_FILE_SAVE_AS" Id="0xE104">
+      <Command.LabelTitle>
+        <String Id ="10160">Save As</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10161">ribbon/File/SaveAs.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdFileRevert" Symbol="ID_CMD_FILE_REVERT" Id="25030">
+      <Command.LabelTitle>
+        <String Id ="10170">Revert</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10171">ribbon/File/Revert.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdFileImportImage" Symbol="ID_CMD_FILE_IMPORT_IMAGE" Id="41212">
+      <Command.LabelTitle>
+        <String Id ="10180">Import Image</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10181">ribbon/File/ImportImage.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdFileExportReport" Symbol="ID_CMD_FILE_EXPORT_REPORT" Id="40105">
+      <Command.LabelTitle>
+        <String Id ="10190">Export Report</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10191">ribbon/File/ExportReport.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdFileExportFile" Symbol="ID_CMD_FILE_EXPORT_FILE" Id="40109">
+      <Command.LabelTitle>
+        <String Id ="10200">Export File</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10201">ribbon/File/ExportFile.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdFileSetDefaults" Symbol="ID_CMD_FILE_SET_DEFAULTS" Id="40108">
+      <Command.LabelTitle>
+        <String Id ="10210">Set Defaults</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10211">ribbon/File/SetDefaults.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdFilePageSetup" Symbol="ID_CMD_FILE_PAGE_SETUP" Id="0xE105">
+      <Command.LabelTitle>
+        <String Id ="10220">Page Setup</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10221">ribbon/File/PageSetup.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdFilePrint" Symbol="ID_CMD_FILE_PRINT" Id="0xE107">
+      <Command.LabelTitle>
+        <String Id ="10230">Print</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10231">ribbon/File/Print.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdFilePrintSpecial" Symbol="ID_CMD_FILE_PRINT_SPECIAL" Id="0xE109">
+      <Command.LabelTitle>
+        <String Id ="10240">Print Special</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10241">ribbon/File/PrintSpecial.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdFileQuit" Symbol="ID_CMD_FILE_QUIT">
+      <Command.LabelTitle>
+        <String Id ="10250">Quit</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10251">ribbon/File/quitPCDraft.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdWelcomeScreen" Symbol="ID_CMD_WELCOME_SCREEN">
+      <Command.LabelTitle>
+        <String Id ="10260">Welcome Screen</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10261">ribbon/File/welcomeScreen.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdEdit"
+						 Comment="These comments are optional and are inserted into the header file."
+						 Symbol="IDC_CMD_EDIT"
+						 Id="10500" >
+      <Command.LabelTitle>
+        <String Id ="10501">Edit</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdEditPasteOptions" Symbol="ID_CMD_EDIT_PASTE_OPTIONS">
+      <Command.LabelTitle>
+        <String Id ="10510">Paste Options</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10511">ribbon/Edit/PasteOptions.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdEditCut" Symbol="ID_CMD_EDIT_CUT">
+      <Command.LabelTitle>
+        <String Id ="10520">Cut</String>
+      </Command.LabelTitle>
+      <Command.SmallImages>
+        <Image Id="10521">ribbon/Edit/Cut15x15.png</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="cmdEditCopy" Symbol="ID_CMD_EDIT_COPY">
+      <Command.LabelTitle>
+        <String Id ="10530">Copy</String>
+      </Command.LabelTitle>
+      <Command.SmallImages>
+        <Image Id="10531">ribbon/Edit/Copy15x15.png</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="cmdEditPaste" Symbol="ID_CMD_EDIT_PASTE">
+      <Command.LabelTitle>
+        <String Id ="10540">Paste</String>
+      </Command.LabelTitle>
+      <Command.SmallImages>
+        <Image Id="10541">ribbon/Edit/Paste15x15.png</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="cmdEditClear" Symbol="ID_CMD_EDIT_CLEAR">
+      <Command.LabelTitle>
+        <String Id ="10550">Clear</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10551">ribbon/Edit2/clear.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdEditUndo" Symbol="ID_CMD_EDIT_UNDO">
+      <Command.SmallImages>
+        <Image Id="10560">ribbon/Undo20x20.png</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="cmdEditRedo" Symbol="ID_CMD_EDIT_REDO">
+      <Command.SmallImages>
+        <Image Id="10561">ribbon/Redo20x20.png</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="cmdEditCopyAttributes" Symbol="ID_CMD_EDIT_COPY_ATTRIBUTES">
+      <Command.LabelTitle>
+        <String Id ="10570">Copy Attributes</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10571">ribbon/Edit/CopyAttributes.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdEditApplyAttributes" Symbol="ID_CMD_EDIT_APPLY_ATTRIBUTES">
+      <Command.LabelTitle>
+        <String Id ="10580">Apply Attributes</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10581">ribbon/Edit/ApplyAttributes.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdEditAttributeOptions" Symbol="ID_CMD_EDIT_ATTRIBUTE_OPTIONS">
+      <Command.LabelTitle>
+        <String Id ="10590">Attribute Options</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10591">ribbon/Edit/AttributeOptions.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdEditDuplicate" Symbol="ID_CMD_EDIT_DUPLICATE">
+      <Command.LabelTitle>
+        <String Id ="10600">Duplicate</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10601">ribbon/Edit/Duplicate.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdEditDuplicateLinear" Symbol="ID_CMD_EDIT_DUPLICATE_LINEAR">
+      <Command.LabelTitle>
+        <String Id ="10610">Linear Duplication</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10611">ribbon/Edit2/Linear-Duplication.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdEditDuplicateCircular" Symbol="ID_CMD_EDIT_DUPLICATE_CIRCULAR">
+      <Command.LabelTitle>
+        <String Id ="10620">Circular Duplication</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10621">ribbon/Edit2/Circular-Duplication.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdEditSelectAll" Symbol="ID_CMD_EDIT_SELECT_ALL">
+      <Command.LabelTitle>
+        <String Id ="10630">Select All</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10631">ribbon/Edit/SelectAll.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdEditSelectNone" Symbol="ID_CMD_EDIT_SELECT_NONE">
+      <Command.LabelTitle>
+        <String Id ="10640">Select None</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10641">ribbon/Edit/SelectNone.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdEditSelectSpecial" Symbol="ID_CMD_EDIT_SELECT_SPECIAL">
+      <Command.LabelTitle>
+        <String Id ="10650">Select Special</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10651">ribbon/Edit/SelectSpecial.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdEditMove" Symbol="ID_CMD_EDIT_MOVE">
+      <Command.LabelTitle>
+        <String Id ="10660">Move</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10661">ribbon/Edit/Move.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdEditExpand" Symbol="ID_CMD_EDIT_EXPAND">
+      <Command.LabelTitle>
+        <String Id ="10670">Expand</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10671">ribbon/Edit/Expand.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdEditContract" Symbol="ID_CMD_EDIT_CONTRACT">
+      <Command.LabelTitle>
+        <String Id ="10680">Contract</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10681">ribbon/Edit/Contract.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdEditReshape" Symbol="ID_CMD_EDIT_RESHAPE">
+      <Command.LabelTitle>
+        <String Id ="10690">Reshape</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10691">ribbon/Edit/Reshape.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdEditDatum" Symbol="ID_CMD_EDIT_DATUM">
+      <Command.LabelTitle>
+        <String Id ="10700">Edit Datum</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="10701">ribbon/Edit/EditDatum.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdText"
+						 Comment="These comments are optional and are inserted into the header file."
+						 Symbol="IDC_CMD_TEXT"
+						 Id="11000" >
+      <Command.LabelTitle>
+        <String Id ="11001">Text</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdTextFontSelect" Symbol="ID_CMD_TEXT_FONT_SELECT">
+      <Command.LabelTitle>
+        <String Id ="11010">Font Select</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11011">ribbon/Text/SelectFont.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdTextJustificationLeft" Symbol="ID_CMD_TEXT_JUSTIFICATION_LEFT">
+      <Command.LabelTitle>
+        <String Id ="11020">Left</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11021">ribbon/Text/JustifyLeft.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdTextJustificationCenter" Symbol="ID_CMD_TEXT_JUSTIFICATION_CENTER">
+      <Command.LabelTitle>
+        <String Id ="11030">Center</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11031">ribbon/Text/JustifyCenter.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdTextJustificationRight" Symbol="ID_CMD_TEXT_JUSTIFICATION_RIGHT">
+      <Command.LabelTitle>
+        <String Id ="11040">Right</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11041">ribbon/Text/JustifyRight.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdTextVerticalPositionTop" Symbol="ID_CMD_TEXT_VERTICAL_POSITION_TOP">
+      <Command.LabelTitle>
+        <String Id ="11050">Top</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11051">ribbon/Text/PositionTop.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdTextVerticalPositionMiddle" Symbol="ID_CMD_TEXT_VERTICAL_POSITION_MIDDLE">
+      <Command.LabelTitle>
+        <String Id ="11060">Middle</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11061">ribbon/Text/PositionMiddle.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdTextVerticalPositionBottom" Symbol="ID_CMD_TEXT_VERTICAL_POSITION_BOTTOM">
+      <Command.LabelTitle>
+        <String Id ="11070">Bottom</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11071">ribbon/Text/PositionBottom.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdTextLineSpacingSingle" Symbol="ID_CMD_TEXT_LINE_SPACING_SINGLE">
+      <Command.LabelTitle>
+        <String Id ="11080">Single</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11081">ribbon/Text/LineSpacingSingle.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdTextLineSpacingOneAndAHalf" Symbol="ID_CMD_TEXT_LINE_SPACING_ONE_AND_A_HALF">
+      <Command.LabelTitle>
+        <String Id ="11090">1.5</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11091">ribbon/Text/LineSpace1.5.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdTextLineSpacingDouble" Symbol="ID_CMD_TEXT_LINE_SPACING_DOUBLE">
+      <Command.LabelTitle>
+        <String Id ="11100">Double</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11101">ribbon/Text/LineSpacingDouble.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdTextCaseUpper" Symbol="ID_CMD_TEXT_CASE_UPPER">
+      <Command.LabelTitle>
+        <String Id ="11110">Upper</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11111">ribbon/Text/Uppercase.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdTextCaseLower" Symbol="ID_CMD_TEXT_CASE_LOWER">
+      <Command.LabelTitle>
+        <String Id ="11120">Lower</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11121">ribbon/Text/Lowercase.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdTextCaseTitle" Symbol="ID_CMD_TEXT_CASE_TITLE">
+      <Command.LabelTitle>
+        <String Id ="11130">Title</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11131">ribbon/Text/TitleText.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdTextSelectAll" Symbol="ID_CMD_TEXT_SELECT_ALL">
+      <Command.LabelTitle>
+        <String Id ="11140">Select All Text</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11141">ribbon/Text/SelectAllText.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdTextHide" Symbol="ID_CMD_TEXT_HIDE">
+      <Command.LabelTitle>
+        <String Id ="11150">Hide Text</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11151">ribbon/Text/HideText.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdTextColor" Symbol="ID_CMD_TEXT_COLOR">
+      <Command.LabelTitle>
+        <String Id ="11160">Text Color</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11161">ribbon/Options/EditColor.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdOptions"
+						 Comment="These comments are optional and are inserted into the header file."
+						 Symbol="IDC_CMD_OPTIONS"
+						 Id="11500" >
+      <Command.LabelTitle>
+        <String Id ="11501">Options</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdOptionsBorderPositionInside" Symbol="ID_CMD_OPTIONS_BORDER_POSITION_INSIDE">
+      <Command.LabelTitle>
+        <String Id ="11510">Inside</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11511">ribbon/Options/BorderInside.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdOptionsBorderPositionCenter" Symbol="ID_CMD_OPTIONS_BORDER_POSITION_CENTER">
+      <Command.LabelTitle>
+        <String Id ="11520">Center</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11521">ribbon/Options/BorderCenter.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdOptionsBorderPositionOutside" Symbol="ID_CMD_OPTIONS_BORDER_POSITION_OUTSIDE">
+      <Command.LabelTitle>
+        <String Id ="11530">Outside</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11531">ribbon/Options/BorderOutside.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdOptionsPenStyleBlade" Symbol="ID_CMD_OPTIONS_PEN_STYLE_BLADE">
+      <Command.LabelTitle>
+        <String Id ="11540">Blade</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11541">ribbon/Options/PenStyleBlade.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdOptionsPenStyleRound" Symbol="ID_CMD_OPTIONS_PEN_STYLE_ROUND">
+      <Command.LabelTitle>
+        <String Id ="11550">Round</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11551">ribbon/Options/PenStyleRound.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdOptionsZoomLineWeights" Symbol="ID_CMD_OPTIONS_ZOOM_LINE_WEIGHTS">
+      <Command.LabelTitle>
+        <String Id ="11560">Zoom Line Weights</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11561">ribbon/Options/ZoomLineWeights.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdOptionsHideShowLineStyles" Symbol="ID_CMD_OPTIONS_HIDE_SHOW_LINE_STYLES">
+      <Command.LabelTitle>
+        <String Id ="11570">Hide/Show Line Styles</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11571">ribbon/Options/HideShowLineStyles.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdOptionsEditLineStyles" Symbol="ID_CMD_OPTIONS_EDIT_LINE_STYLES">
+      <Command.LabelTitle>
+        <String Id ="11580">Edit Line Styles</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11581">ribbon/Options/EditLineStyles.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdOptionsNewColor" Symbol="ID_CMD_OPTIONS_NEW_COLOR">
+      <Command.LabelTitle>
+        <String Id ="11590">New Color</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11591">ribbon/Options/NewColor.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdOptionsNewGradient" Symbol="ID_CMD_OPTIONS_NEW_GRADIENT">
+      <Command.LabelTitle>
+        <String Id ="11600">New Gradient</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11601">ribbon/Options/NewGradient.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdOptionsNewPattern" Symbol="ID_CMD_OPTIONS_NEW_PATTERN">
+      <Command.LabelTitle>
+        <String Id ="11610">New Pattern</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11611">ribbon/Options/NewPattern.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdOptionsEditColor" Symbol="ID_CMD_OPTIONS_EDIT_COLORS">
+      <Command.LabelTitle>
+        <String Id ="11620">Edit Colors</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11621">ribbon/Options/EditColor.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdOptionsEditPatternGradient" Symbol="ID_CMD_OPTIONS_EDIT_PATTERN_GRADIENT">
+      <Command.LabelTitle>
+        <String Id ="11630">Edit Patt/Grad</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11631">ribbon/Options/EditPatternGradient.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdOptionsDuplicatePatternGradient" Symbol="ID_CMD_OPTIONS_DUPLICATE_PATTERN_GRADIENT">
+      <Command.LabelTitle>
+        <String Id ="11640">Duplicate Patt/Grad</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11641">ribbon/Options/DuplicatePatternGradient.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdOptionsHideShowFills" Symbol="ID_CMD_OPTIONS_HIDE_SHOW_FILLS">
+      <Command.LabelTitle>
+        <String Id ="11650">Hide/Show Fills</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11651">ribbon/Options/HideShowFills.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdOptionsCrossCursor" Symbol="ID_CMD_OPTIONS_CROSS_CURSOR">
+      <Command.LabelTitle>
+        <String Id ="11660">Cross Cursor</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11661">ribbon/Options/CrossCursor.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdOptionsTool" Symbol="ID_CMD_OPTIONS_TOOL">
+      <Command.LabelTitle>
+        <String Id ="11670">Tools Options</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11671">ribbon/Options/ToolOptions.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdAutoSave" Symbol="ID_CMD_OPTIONS_AUTO_SAVE">
+      <Command.LabelTitle>
+        <String Id ="11680">Auto Save</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11681">ribbon/Options/AutoSave.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdGuides" Symbol="ID_CMD_OPTIONS_GUIDES">
+      <Command.LabelTitle>
+        <String Id ="11690">Guides</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="11691">ribbon/Options/Guides.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrange"
+						 Comment="These comments are optional and are inserted into the header file."
+						 Symbol="IDC_CMD_ARRANGE"
+						 Id="12000" >
+      <Command.LabelTitle>
+        <String Id ="12001">Arrange</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdArrangeBringToFront" Symbol="ID_CMD_ARRANGE_BRING_TO_FRONT">
+      <Command.LabelTitle>
+        <String Id ="12010">Bring to Front</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="12011">ribbon/Arrange/BringToFront.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeSendToBack" Symbol="ID_CMD_ARRANGE_SEND_TO_BACK">
+      <Command.LabelTitle>
+        <String Id ="12020">Send to Back</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="12021">ribbon/Arrange/SendToBack.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeMoveForward" Symbol="ID_CMD_ARRANGE_MOVE_FORWARD">
+      <Command.LabelTitle>
+        <String Id ="12030">Move Forward</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="12031">ribbon/Arrange/MoveForward.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeMoveBack" Symbol="ID_CMD_ARRANGE_MOVE_BACK">
+      <Command.LabelTitle>
+        <String Id ="12040">Move Back</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="12041">ribbon/Arrange/MoveBack.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeGroup" Symbol="ID_CMD_ARRANGE_GROUP">
+      <Command.LabelTitle>
+        <String Id ="12050">Group</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="12051">ribbon/Arrange/Group.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeUngroup" Symbol="ID_CMD_ARRANGE_UNGROUP">
+      <Command.LabelTitle>
+        <String Id ="12060">Ungroup</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="12061">ribbon/Arrange/Ungroup.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeRotate" Symbol="ID_CMD_ARRANGE_ROTATE">
+      <Command.LabelTitle>
+        <String Id ="12070">Rotate</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="12071">ribbon/Arrange/Rotate.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeRotateToZero" Symbol="ID_CMD_ARRANGE_ROTATE_TO_ZERO">
+      <Command.LabelTitle>
+        <String Id ="12080">Rotate to Zero</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="12081">ribbon/Arrange/RotateToZero.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeRotateOptions" Symbol="ID_CMD_ARRANGE_ROTATE_OPTIONS">
+      <Command.LabelTitle>
+        <String Id ="12090">Rotate Options</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="12091">ribbon/Arrange/RotateOptions.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeFlipHorizontal" Symbol="ID_CMD_ARRANGE_FLIP_HORIZONTAL">
+      <Command.LabelTitle>
+        <String Id ="12100">Flip Horizontal</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="12101">ribbon/Arrange/FlipHorizontal.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeFlipVertical" Symbol="ID_CMD_ARRANGE_FLIP_VERTICAL">
+      <Command.LabelTitle>
+        <String Id ="12110">Flip Vertical</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="12111">ribbon/Arrange/FlipVertical.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeAlignBottom" Symbol="ID_CMD_ARRANGE_ALIGN_BOTTOM">
+      <Command.LargeImages>
+        <Image Id="4121">ribbon/Arrange/AlignBottom18x18.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeAlignTop" Symbol="ID_CMD_ARRANGE_ALIGN_TOP">
+      <Command.LargeImages>
+        <Image Id="12131">ribbon/Arrange/AlignTop18x18.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeAlignVerticalCenter" Symbol="ID_CMD_ARRANGE_ALIGN_VERTICAL_CENTER">
+      <Command.LargeImages>
+        <Image Id="12141">ribbon/Arrange/AlignVerticalCenter18x18.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeAlignLeft" Symbol="ID_CMD_ARRANGE_ALIGN_LEFT">
+      <Command.LargeImages>
+        <Image Id="12151">ribbon/Arrange/AlignLeft18x18.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeAlignRight" Symbol="ID_CMD_ARRANGE_ALIGN_RIGHT">
+      <Command.LargeImages>
+        <Image Id="12161">ribbon/Arrange/AlignRight18x18.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeAlignHorizontalCenter" Symbol="ID_CMD_ARRANGE_ALIGN_HORIZONTAL_CENTER">
+      <Command.LargeImages>
+        <Image Id="12171">ribbon/Arrange/AlignHorizontalCenter18x18.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeDistributeHorizontalCenter" Symbol="ID_CMD_ARRANGE_DISTRIBUTE_HORIZONTAL_CENTER">
+      <Command.LargeImages>
+        <Image Id="12181">ribbon/Arrange/DistributeHorizontalCenter19x19.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeDistributeHorizontalDatum" Symbol="ID_CMD_ARRANGE_DISTRIBUTE_HORIZONTAL_DATUM">
+      <Command.LargeImages>
+        <Image Id="12191">ribbon/Arrange/DistributeHorizontalDatum19x19.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeDistributeVerticalCenter" Symbol="ID_CMD_ARRANGE_DISTRIBUTE_VERTICAL_CENTER">
+      <Command.LargeImages>
+        <Image Id="12201">ribbon/Arrange/DistributeVerticalCenter19x19.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeDistributeVerticalDatum" Symbol="ID_CMD_ARRANGE_DISTRIBUTE_VERTICAL_DATUM">
+      <Command.LargeImages>
+        <Image Id="12211">ribbon/Arrange/DistributeVerticalDatum19x19.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeAlignAgain" Symbol="ID_CMD_ARRANGE_ALIGN_AGAIN">
+      <Command.LabelTitle>
+        <String Id ="12220">Align Again</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="12221">ribbon/Arrange/AlignAgain.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeAlignOptions" Symbol="ID_CMD_ARRANGE_ALIGN_OPTIONS">
+      <Command.LabelTitle>
+        <String Id ="12230">Align Options</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="12231">ribbon/Arrange/AlignOptions.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeDistributeOnLine" Symbol="ID_CMD_ARRANGE_DISTRIBUTE_ON_LINE">
+      <Command.LabelTitle>
+        <String Id ="12240">Distribute on Line</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="12241">ribbon/Arrange/DistributeOnLine.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeLock" Symbol="ID_CMD_ARRANGE_LOCK">
+      <Command.LabelTitle>
+        <String Id ="12250">Lock</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="12251">ribbon/Arrange/Lock.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdArrangeUnlock" Symbol="ID_CMD_ARRANGE_UNLOCK">
+      <Command.LabelTitle>
+        <String Id ="12260">Unlock</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="12261">ribbon/Arrange/Unlock.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdData"
+						 Comment="These comments are optional and are inserted into the header file."
+						 Symbol="IDC_CMD_DATA"
+						 Id="12500" >
+      <Command.LabelTitle>
+        <String Id ="12501">Data</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdDataEditFieldNames" Symbol="ID_CMD_DATA_EDIT_FIELD_NAMES">
+      <Command.LabelTitle>
+        <String Id ="12510">Edit Field Names</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="12511">ribbon/Data/EditFieldNames.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdDataEditObjectInfo" Symbol="ID_CMD_DATA_EDIT_OBJECT_INFO">
+      <Command.LabelTitle>
+        <String Id ="12520">Edit Object Info</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="12521">ribbon/Data/EditObjectInfo.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdDataFindAndReplace" Symbol="ID_CMD_DATA_FIND_AND_REPLACE">
+      <Command.LabelTitle>
+        <String Id ="12530">Find &amp; Replace</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="12531">ribbon/Data/FindReplace.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdDataReportFormats" Symbol="ID_CMD_DATA_REPORT_FORMATS">
+      <Command.LabelTitle>
+        <String Id ="12540">Report Formats</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="12541">ribbon/Data/ReportFormats.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdDataPrintReport" Symbol="ID_CMD_DATA_PRINT_REPORT">
+      <Command.LabelTitle>
+        <String Id ="12550">Print Report</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="12551">ribbon/Data/PrintReport.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdDataUpdateLink" Symbol="ID_CMD_DATA_UPDATE_LINK">
+      <Command.LabelTitle>
+        <String Id ="12560">Update Link</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="12561">ribbon/Data/UpdateLink.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdDataBreakLink" Symbol="ID_CMD_DATA_BREAK_LINK">
+      <Command.LabelTitle>
+        <String Id ="12570">Break Link</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="12571">ribbon/Data/BreakLink.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdLayout"
+						 Comment="These comments are optional and are inserted into the header file."
+						 Symbol="IDC_CMD_LAYOUT"
+						 Id="13000" >
+      <Command.LabelTitle>
+        <String Id ="13001">Layout</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdLayoutSetScaleAndUnits" Symbol="ID_CMD_LAYOUT_SET_SCALE_AND_UNITS">
+      <Command.LabelTitle>
+        <String Id ="13010">Set Scale &amp; Units</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13011">ribbon/Layout/SetScaleUnits.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdLayoutSetGrid" Symbol="ID_CMD_LAYOUT_SET_GRID">
+      <Command.LabelTitle>
+        <String Id ="13020">Set Grid</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13021">ribbon/Layout/SetGrid.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdLayoutSetAngleSnap" Symbol="ID_CMD_LAYOUT_SET_ANGLE_SNAP">
+      <Command.LabelTitle>
+        <String Id ="13030">Set Angle Snap</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13031">ribbon/Layout/SetAngle.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdLayoutHideShowRulers" Symbol="ID_CMD_LAYOUT_HIDE_SHOW_RULERS">
+      <Command.LabelTitle>
+        <String Id ="13040">Hide/Show Rulers</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13041">ribbon/Layout/ShowHideRulers.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdLayoutScaleRulers" Symbol="ID_CMD_LAYOUT_SCALE_RULERS">
+      <Command.LabelTitle>
+        <String Id ="13050">Scale Rulers</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13051">ribbon/Layout/ScaledRulers.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdLayoutStandardRulers" Symbol="ID_CMD_LAYOUT_STANDARD_RULERS">
+      <Command.LabelTitle>
+        <String Id ="13060">Standard Rulers</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13061">ribbon/Layout/StandardRulers.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdLayoutSnapToObject" Symbol="ID_CMD_LAYOUT_SNAP_TO_OBJECT">
+      <Command.LabelTitle>
+        <String Id ="13070">Snap to Object</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13071">ribbon/Layout/SnapToObject.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdLayoutSnapToGuides" Symbol="ID_CMD_LAYOUT_SNAP_TO_GUIDES">
+      <Command.LabelTitle>
+        <String Id ="13080">Snap to Guides</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13081">ribbon/Layout/SnapToGuides.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdLayoutShowGuideLines" Symbol="ID_CMD_LAYOUT_SHOW_GUIDE_LINES">
+      <Command.LabelTitle>
+        <String Id ="13090">Show Guide Lines</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13091">ribbon/Layout/ShowGuides.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdLayoutHideShowGridLines" Symbol="ID_CMD_LAYOUT_HIDE_SHOW_GRID_LINES">
+      <Command.LabelTitle>
+        <String Id ="13100">Hide/Show Grid Lines</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13101">ribbon/Layout/ShowHideGrid.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdLayoutHideShowPageBreaks" Symbol="ID_CMD_LAYOUT_HIDE_SHOW_PAGE_BREAKS">
+      <Command.LabelTitle>
+        <String Id ="13110">Hide/Show Page Breaks</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13111">ribbon/Layout/ShowHidePageBreaks.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdLayoutDrawingSize" Symbol="ID_CMD_LAYOUT_DRAWING_SIZE">
+      <Command.LabelTitle>
+        <String Id ="13120">Drawing Size</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13121">ribbon/Layout/DrawingSize.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdLayoutPosition" Symbol="ID_CMD_LAYOUT_POSITION">
+      <Command.LabelTitle>
+        <String Id ="13130">Position</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13131">ribbon/Layout/Position.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdView"
+						 Comment="These comments are optional and are inserted into the header file."
+						 Symbol="IDC_CMD_VIEW"
+						 Id="13500" >
+      <Command.LabelTitle>
+        <String Id ="13501">View</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdViewZoom" Symbol="ID_CMD_VIEW_ZOOM">
+      <Command.LabelTitle>
+        <String Id ="13510">Zoom</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13511">ribbon/View/Zoom.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdViewRestorePreviousZoom" Symbol="ID_CMD_VIEW_RESTORE_PREVIOUS_ZOOM">
+      <Command.LabelTitle>
+        <String Id ="13520">Restore Prev. Zoom</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13521">ribbon/View/RestoreZoom.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdViewHomeView" Symbol="ID_CMD_VIEW_HOME_VIEW">
+      <Command.LabelTitle>
+        <String Id ="13530">Home View</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13531">ribbon/View/HomeView.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdViewHideShowCursorPosition" Symbol="ID_CMD_VIEW_HIDE_SHOW_CURSOR_POSITION">
+      <Command.LabelTitle>
+        <String Id ="13540">Hide/Show Cursor Pos.</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13541">ribbon/View/ShowHideCursorPosition.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdViewShowHideArea" Symbol="ID_CMD_VIEW_SHOW_HIDE_AREA">
+      <Command.LabelTitle>
+        <String Id ="13550">Hide/Show Area</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13551">ribbon/View/ShowHideArea.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdViewSlideShow" Symbol="ID_CMD_VIEW_SLIDE_SHOW">
+      <Command.LabelTitle>
+        <String Id ="13552">Slide Show</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13553">ribbon/View/SlideShow.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdViewPaletteTool" Symbol="ID_CMD_VIEW_PALETTE_TOOL">
+      <Command.LabelTitle>
+        <String Id ="13560">Tool</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13561">ribbon/View/PaletteTool.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdViewPaletteDimensions" Symbol="ID_CMD_VIEW_PALETTE_DIMENSIONS">
+      <Command.LabelTitle>
+        <String Id ="13570">Dimensions</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13571">ribbon/View/PaletteDimension.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdViewPaletteAccessory" Symbol="ID_CMD_VIEW_PALETTE_ACCESSORY">
+      <Command.LabelTitle>
+        <String Id ="13580">Accessory</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13581">ribbon/View/PaletteAccessory.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdViewPaletteShowSize" Symbol="ID_CMD_VIEW_PALETTE_SHOW_SIZE">
+      <Command.LabelTitle>
+        <String Id ="13590">Show Size</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13591">ribbon/View/PaletteShowSize.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdViewPaletteLibrary" Symbol="ID_CMD_VIEW_PALETTE_LIBRARY">
+      <Command.LabelTitle>
+        <String Id ="13600">Library</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13601">ribbon/View/PaletteLibrary.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdViewPaletteLayers" Symbol="ID_CMD_VIEW_PALETTE_LAYERS">
+      <Command.LabelTitle>
+        <String Id ="13610">Layers</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="13611">ribbon/View/PaletteLayers.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdWindow"
+						 Comment="These comments are optional and are inserted into the header file."
+						 Symbol="IDC_CMD_WINDOW"
+						 Id="14000" >
+      <Command.LabelTitle>
+        <String Id ="14001">Window</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdWindowShowHideAllPalettes" Symbol="ID_CMD_WINDOW_SHOW_HIDE_ALL_PALETTES">
+      <Command.LabelTitle>
+        <String Id ="14010">Hide/Show All Palettes</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="14011">ribbon/Window/ShowHideAllPlettes.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdWindowCascade" Symbol="ID_CMD_WINDOW_CASCADE">
+      <Command.LabelTitle>
+        <String Id ="14020">Cascade</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="14021">ribbon/Window/Cascade.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdWindowTile" Symbol="ID_CMD_WINDOW_TILE">
+      <Command.LabelTitle>
+        <String Id ="14030">Tile</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="14031">ribbon/Window/Tile.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdWindowArrangeIcons" Symbol="ID_CMD_WINDOW_ARRANGE_ICONS">
+      <Command.LabelTitle>
+        <String Id ="14040">Arrange Icons</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="14041">ribbon/Window/ArrangeIcons.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdProperties"
+						 Comment="These comments are optional and are inserted into the header file."
+						 Symbol="IDC_CMD_PROPERTIES"
+						 Id="14500" >
+      <Command.LabelTitle>
+        <String Id ="14501">Properties</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdQat"/>
+    <Command Name="cmdFileMenu"/>
+    <Command Name="cmdMRUList">
+      <Command.LabelTitle>
+        <String Id ="14580">MRU List</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdTest"
+						 Comment="These comments are optional and are inserted into the header file."
+						 Symbol="IDC_CMD_Test"
+						 Id="15001" >
+      <Command.LabelTitle>
+        <String Id ="15002">Test</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdExit" Symbol="IDC_CMD_EXIT">
+      <Command.LabelTitle>
+        <String Id ="15090">Exit Button</String>
+      </Command.LabelTitle>
+    </Command>
+  </Application.Commands>
+  <Application.Views>
+    <Ribbon>
+      <Ribbon.ApplicationMenu>
+        <ApplicationMenu CommandName="ApplicationMenu">
+          <MenuGroup>
+            <Button CommandName="cmdFileNewDrawing" />
+            <Button CommandName="cmdFileOpen" />
+            <Button CommandName="cmdFileSave" />
+            <Button CommandName="cmdFileSaveAs" />
+          </MenuGroup>
+          <MenuGroup>
+            <Button CommandName="cmdExit" />
+          </MenuGroup>
+        </ApplicationMenu>
+      </Ribbon.ApplicationMenu>
+      <Ribbon.QuickAccessToolbar>
+        <QuickAccessToolbar CommandName="QuickAccessToolbar">
+          <QuickAccessToolbar.ApplicationDefaults>
+            <Button CommandName="cmdFileSave" />
+            <Button CommandName="cmdEditUndo" />
+          </QuickAccessToolbar.ApplicationDefaults>
+        </QuickAccessToolbar>
+      </Ribbon.QuickAccessToolbar>
+      <Ribbon.Tabs>
+        <Tab CommandName="cmdFile">
+          <Tab.ScalingPolicy>
+            <ScalingPolicy>
+              <ScalingPolicy.IdealSizes>
+                <!-- This describes the maximum size of each group in the tab. -->
+                <Scale Group="cmdGroup1" Size="Large" />
+                <Scale Group="cmdGroup2" Size="Large" />
+                <Scale Group="cmdGroup3" Size="Large" />
+                <Scale Group="cmdGroup4" Size="Large" />
+                <Scale Group="cmdGroup5" Size="Large" />
+              </ScalingPolicy.IdealSizes>
+              <!-- This describes the order and how the groups shrink when the window is
+							resized. -->
+              <Scale Group="cmdGroup1" Size="Medium" />
+              <Scale Group="cmdGroup3" Size="Medium" />
+              <Scale Group="cmdGroup2" Size="Medium" />
+              <Scale Group="cmdGroup5" Size="Medium" />
+            </ScalingPolicy>
+          </Tab.ScalingPolicy>
+          <Group CommandName="cmdGroup1" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdFileNewDrawing" />
+            <Button CommandName="cmdFileOpen" />
+            <Button CommandName="cmdFileLoadLayer" />
+          </Group>
+          <Group CommandName="cmdGroup2" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdFileSave" />
+            <Button CommandName="cmdFileSaveAs" />
+            <Button CommandName="cmdFileRevert" />
+          </Group>
+          <Group CommandName="cmdGroup3" SizeDefinition="ThreeButtons">
+            <!-- You can put the same commands into multiple groups. -->
+            <Button CommandName="cmdFileImportImage" />
+            <Button CommandName="cmdFileExportReport" />
+            <Button CommandName="cmdFileExportFile" />
+          </Group>
+          <Group CommandName="cmdGroup4" SizeDefinition="OneButton">
+            <Button CommandName="cmdFileSetDefaults" />
+          </Group>
+          <Group CommandName="cmdGroup5" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdFilePageSetup" />
+            <Button CommandName="cmdFilePrint" />
+            <DropDownButton CommandName="cmdFilePrintSpecial"  >
+              <Button CommandName="cmdFilePrint" />
+            </DropDownButton>
+          </Group>
+        </Tab>
+        <Tab CommandName="cmdEdit">
+          <Tab.ScalingPolicy>
+            <ScalingPolicy>
+              <ScalingPolicy.IdealSizes>
+                <!-- This describes the maximum size of each group in the tab. -->
+                <Scale Group="cmdGroup1" Size="Medium" />
+                <Scale Group="cmdGroup2" Size="Large" />
+                <Scale Group="cmdGroup3" Size="Large" />
+                <Scale Group="cmdGroup4" Size="Large" />
+                <Scale Group="cmdGroup5" Size="Large" />
+                <Scale Group="cmdGroup6" Size="Large" />
+              </ScalingPolicy.IdealSizes>
+              <Scale Group="cmdGroup2" Size="Medium" />
+              <Scale Group="cmdGroup4" Size="Medium" />
+              <Scale Group="cmdGroup5" Size="Medium" />
+            </ScalingPolicy>
+          </Tab.ScalingPolicy>
+          <Group CommandName="cmdGroup1" SizeDefinition="SevenButtons">
+            <Button CommandName="cmdEditPasteOptions" />
+            <Button CommandName="cmdEditCut"/>
+            <Button CommandName="cmdEditCopy" />
+            <Button CommandName="cmdEditPaste" />
+            <Button CommandName="cmdEditClear" />
+            <Button CommandName="cmdEditUndo" />
+            <Button CommandName="cmdEditRedo" />
+          </Group>
+          <Group CommandName="cmdGroup2" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdEditCopyAttributes" />
+            <Button CommandName="cmdEditApplyAttributes" />
+            <Button CommandName="cmdEditAttributeOptions" />
+          </Group>
+          <Group CommandName="cmdGroup3" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdEditDuplicate" />
+            <Button CommandName="cmdEditDuplicateLinear" />
+            <Button CommandName="cmdEditDuplicateCircular" />
+          </Group>
+          <Group CommandName="cmdGroup4" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdEditSelectAll" />
+            <Button CommandName="cmdEditSelectNone" />
+            <Button CommandName="cmdEditSelectSpecial" />
+          </Group>
+          <Group CommandName="cmdGroup5" SizeDefinition="FourButtons">
+            <Button CommandName="cmdEditMove" />
+            <Button CommandName="cmdEditExpand" />
+            <Button CommandName="cmdEditContract" />
+            <Button CommandName="cmdEditReshape" />
+          </Group>
+          <Group CommandName="cmdGroup6" SizeDefinition="OneButton">
+            <Button CommandName="cmdEditDatum" />
+          </Group>
+        </Tab>
+        <Tab CommandName="cmdText">
+          <Tab.ScalingPolicy>
+            <ScalingPolicy>
+              <ScalingPolicy.IdealSizes>
+                <!-- This describes the maximum size of each group in the tab. -->
+                <Scale Group="cmdGroup1" Size="Large" />
+                <Scale Group="cmdGroupJustification" Size="Large" />
+                <Scale Group="cmdGroupVerticalPosition" Size="Large" />
+                <Scale Group="cmdGroupLineSpacing" Size="Large" />
+                <Scale Group="cmdGroupCase" Size="Large" />
+                <Scale Group="cmdGroup6" Size="Large" />
+                <Scale Group="cmdGroup7" Size="Large" />
+              </ScalingPolicy.IdealSizes>
+              <Scale Group="cmdGroupJustification" Size="Medium" />
+              <Scale Group="cmdGroupVerticalPosition" Size="Medium" />
+              <Scale Group="cmdGroupLineSpacing" Size="Medium" />
+              <Scale Group="cmdGroupCase" Size="Medium" />
+              <Scale Group="cmdGroup6" Size="Medium" />
+            </ScalingPolicy>
+          </Tab.ScalingPolicy>
+          <Group CommandName="cmdGroup1" SizeDefinition="OneButton">
+            <Button CommandName="cmdTextFontSelect" />
+          </Group>
+          <Group CommandName="cmdGroupJustification" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdTextJustificationLeft" />
+            <Button CommandName="cmdTextJustificationCenter" />
+            <Button CommandName="cmdTextJustificationRight" />
+          </Group>
+          <Group CommandName="cmdGroupVerticalPosition" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdTextVerticalPositionTop" />
+            <Button CommandName="cmdTextVerticalPositionMiddle" />
+            <Button CommandName="cmdTextVerticalPositionBottom" />
+          </Group>
+          <Group CommandName="cmdGroupLineSpacing" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdTextLineSpacingSingle" />
+            <Button CommandName="cmdTextLineSpacingOneAndAHalf" />
+            <Button CommandName="cmdTextLineSpacingDouble" />
+          </Group>
+          <Group CommandName="cmdGroupCase" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdTextCaseUpper" />
+            <Button CommandName="cmdTextCaseLower" />
+            <Button CommandName="cmdTextCaseTitle" />
+          </Group>
+          <Group CommandName="cmdGroup6" SizeDefinition="TwoButtons">
+            <Button CommandName="cmdTextSelectAll" />
+            <Button CommandName="cmdTextHide" />
+          </Group>
+          <Group CommandName="cmdGroup7" SizeDefinition="OneButton">
+            <Button CommandName="cmdTextColor" />
+          </Group>
+        </Tab>
+        <Tab CommandName="cmdOptions">
+          <Tab.ScalingPolicy>
+            <ScalingPolicy>
+              <ScalingPolicy.IdealSizes>
+                <!-- This describes the maximum size of each group in the tab. -->
+                <Scale Group="cmdGroupBorderPosition" Size="Large" />
+                <Scale Group="cmdGroupPenStyle" Size="Large" />
+                <Scale Group="cmdGroup3" Size="Large" />
+                <Scale Group="cmdGroup4" Size="Large" />
+                <Scale Group="cmdGroup5" Size="Large" />
+                <Scale Group="cmdGroup6" Size="Large" />
+                <Scale Group="cmdGroup7" Size="Large" />
+              </ScalingPolicy.IdealSizes>
+              <!-- This describes the order and how the groups shrink when the window is
+							resized. -->
+            </ScalingPolicy>
+          </Tab.ScalingPolicy>
+          <Group CommandName="cmdGroupBorderPosition" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdOptionsBorderPositionInside" />
+            <Button CommandName="cmdOptionsBorderPositionCenter" />
+            <Button CommandName="cmdOptionsBorderPositionOutside" />
+          </Group>
+          <Group CommandName="cmdGroupPenStyle" SizeDefinition="TwoButtons">
+            <Button CommandName="cmdOptionsPenStyleBlade" />
+            <Button CommandName="cmdOptionsPenStyleRound" />
+          </Group>
+          <Group CommandName="cmdGroup3" SizeDefinition="TwoButtons">
+            <Button CommandName="cmdOptionsZoomLineWeights" />
+            <Button CommandName="cmdOptionsHideShowLineStyles" />
+          </Group>
+          <Group CommandName="cmdGroup4" SizeDefinition="OneButton">
+            <DropDownButton CommandName="cmdOptionsEditLineStyles" />
+          </Group>
+          <Group CommandName="cmdGroup5" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdOptionsNewColor" />
+            <Button CommandName="cmdOptionsNewGradient" />
+            <Button CommandName="cmdOptionsNewPattern" />
+          </Group>
+          <Group CommandName="cmdGroup6" SizeDefinition="FourButtons">
+            <DropDownButton CommandName="cmdOptionsEditColor" />
+            <DropDownButton CommandName="cmdOptionsEditPatternGradient" />
+            <DropDownButton CommandName="cmdOptionsDuplicatePatternGradient" />
+            <DropDownButton CommandName="cmdOptionsHideShowFills" />
+          </Group>
+          <Group CommandName="cmdGroup7" SizeDefinition="TwoButtons">
+            <Button CommandName="cmdOptionsCrossCursor" />
+            <Button CommandName="cmdOptionsTool" />
+          </Group>
+        </Tab>
+        <Tab CommandName="cmdArrange">
+          <Tab.ScalingPolicy>
+            <ScalingPolicy>
+              <ScalingPolicy.IdealSizes>
+                <!-- This describes the maximum size of each group in the tab. -->
+                <Scale Group="cmdGroup1" Size="Large" />
+                <Scale Group="cmdGroup2" Size="Large" />
+                <Scale Group="cmdGroup3" Size="Large" />
+                <Scale Group="cmdGroup4" Size="Large" />
+                <Scale Group="cmdGroupAlignAndDistribute" Size="Small" />
+                <Scale Group="cmdGroup6" Size="Large" />
+                <Scale Group="cmdGroup7" Size="Large" />
+              </ScalingPolicy.IdealSizes>
+            </ScalingPolicy>
+          </Tab.ScalingPolicy>
+          <Group CommandName="cmdGroup1" SizeDefinition="FourButtons">
+            <Button CommandName="cmdArrangeBringToFront" />
+            <Button CommandName="cmdArrangeSendToBack" />
+            <Button CommandName="cmdArrangeMoveForward" />
+            <Button CommandName="cmdArrangeMoveBack" />
+          </Group>
+          <Group CommandName="cmdGroup2" SizeDefinition="TwoButtons">
+            <Button CommandName="cmdArrangeGroup" />
+            <Button CommandName="cmdArrangeUngroup" />
+          </Group>
+          <Group CommandName="cmdGroup3" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdArrangeRotate" />
+            <Button CommandName="cmdArrangeRotateToZero" />
+            <Button CommandName="cmdArrangeRotateOptions" />
+          </Group>
+          <Group CommandName="cmdGroup4" SizeDefinition="TwoButtons">
+            <Button CommandName="cmdArrangeFlipHorizontal" />
+            <Button CommandName="cmdArrangeFlipVertical" />
+          </Group>
+          <Group CommandName="cmdGroupAlignAndDistribute" SizeDefinition="ButtonGroups">
+            <ControlGroup>
+              <ControlGroup>
+                <Button CommandName="cmdArrangeAlignBottom" />
+                <Button CommandName="cmdArrangeAlignTop" />
+                <Button CommandName="cmdArrangeAlignHorizontalCenter" />
+                <Button CommandName="cmdArrangeDistributeHorizontalCenter" />
+                <Button CommandName="cmdArrangeDistributeHorizontalDatum" />
+              </ControlGroup>
+            </ControlGroup>
+            <ControlGroup>
+              <ControlGroup>
+                <Button CommandName="cmdArrangeAlignLeft" />
+                <Button CommandName="cmdArrangeAlignRight" />
+                <Button CommandName="cmdArrangeAlignVerticalCenter" />
+                <Button CommandName="cmdArrangeDistributeVerticalCenter" />
+                <Button CommandName="cmdArrangeDistributeVerticalDatum" />
+              </ControlGroup>
+            </ControlGroup>
+          </Group>
+          <Group CommandName="cmdGroup6" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdArrangeAlignAgain" />
+            <Button CommandName="cmdArrangeAlignOptions" />
+            <Button CommandName="cmdArrangeDistributeOnLine" />
+          </Group>
+          <Group CommandName="cmdGroup7" SizeDefinition="TwoButtons">
+            <Button CommandName="cmdArrangeLock" />
+            <Button CommandName="cmdArrangeUnlock" />
+          </Group>
+        </Tab>
+        <Tab CommandName="cmdData">
+          <Tab.ScalingPolicy>
+            <ScalingPolicy>
+              <ScalingPolicy.IdealSizes>
+                <!-- This describes the maximum size of each group in the tab. -->
+                <Scale Group="cmdGroup1" Size="Large" />
+                <Scale Group="cmdGroup2" Size="Large" />
+                <Scale Group="cmdGroup3" Size="Large" />
+              </ScalingPolicy.IdealSizes>
+            </ScalingPolicy>
+          </Tab.ScalingPolicy>
+          <Group CommandName="cmdGroup1" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdDataEditFieldNames" />
+            <Button CommandName="cmdDataEditObjectInfo" />
+            <Button CommandName="cmdDataFindAndReplace" />
+          </Group>
+          <Group CommandName="cmdGroup2" SizeDefinition="TwoButtons">
+            <Button CommandName="cmdDataReportFormats" />
+            <Button CommandName="cmdDataPrintReport" />
+          </Group>
+          <Group CommandName="cmdGroup3" SizeDefinition="TwoButtons">
+            <Button CommandName="cmdDataUpdateLink" />
+            <Button CommandName="cmdDataBreakLink" />
+          </Group>
+        </Tab>
+        <Tab CommandName="cmdLayout">
+          <Tab.ScalingPolicy>
+            <ScalingPolicy>
+              <ScalingPolicy.IdealSizes>
+                <Scale Group="cmdGroup1" Size="Large" />
+                <Scale Group="cmdGroup2" Size="Large" />
+                <Scale Group="cmdGroup3" Size="Large" />
+                <Scale Group="cmdGroup4" Size="Large" />
+                <Scale Group="cmdGroup5" Size="Large" />
+              </ScalingPolicy.IdealSizes>
+            </ScalingPolicy>
+          </Tab.ScalingPolicy>
+          <Group CommandName="cmdGroup1" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdLayoutSetScaleAndUnits" />
+            <Button CommandName="cmdLayoutSetGrid" />
+            <Button CommandName="cmdLayoutSetAngleSnap" />
+          </Group>
+          <Group CommandName="cmdGroup2" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdLayoutHideShowRulers" />
+            <Button CommandName="cmdLayoutScaleRulers" />
+            <Button CommandName="cmdLayoutStandardRulers" />
+          </Group>
+          <Group CommandName="cmdGroup3" SizeDefinition="OneButton">
+            <Button CommandName="cmdLayoutSnapToObject" />
+          </Group>
+          <Group CommandName="cmdGroup4" SizeDefinition="TwoButtons">
+            <Button CommandName="cmdLayoutHideShowGridLines" />
+            <Button CommandName="cmdLayoutHideShowPageBreaks" />
+          </Group>
+          <Group CommandName="cmdGroup5" SizeDefinition="TwoButtons">
+            <Button CommandName="cmdLayoutDrawingSize" />
+            <Button CommandName="cmdLayoutPosition" />
+          </Group>
+        </Tab>
+        <Tab CommandName="cmdView">
+          <Tab.ScalingPolicy>
+            <ScalingPolicy>
+              <ScalingPolicy.IdealSizes>
+                <!-- This describes the maximum size of each group in the tab. -->
+                <Scale Group="cmdGroup1" Size="Large" />
+                <Scale Group="cmdGroup2" Size="Large" />
+                <Scale Group="cmdGroup3" Size="Large" />
+                <Scale Group="cmdGroupPalettes" Size="Large" />
+              </ScalingPolicy.IdealSizes>
+            </ScalingPolicy>
+          </Tab.ScalingPolicy>
+          <Group CommandName="cmdGroup1" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdViewZoom" />
+            <Button CommandName="cmdViewRestorePreviousZoom" />
+            <Button CommandName="cmdViewHomeView" />
+          </Group>
+          <Group CommandName="cmdGroup2" SizeDefinition="OneButton">
+            <Button CommandName="cmdViewHideShowCursorPosition" />
+          </Group>
+          <Group CommandName="cmdGroup3" SizeDefinition="OneButton">
+            <Button CommandName="cmdViewShowHideArea" />
+          </Group>
+          <Group CommandName="cmdGroupPalettes" SizeDefinition="SixButtons">
+            <Button CommandName="cmdViewPaletteTool" />
+            <Button CommandName="cmdViewPaletteDimensions" />
+            <Button CommandName="cmdViewPaletteAccessory" />
+            <Button CommandName="cmdViewPaletteShowSize" />
+            <Button CommandName="cmdViewPaletteLibrary" />
+            <Button CommandName="cmdViewPaletteLayers" />
+          </Group>
+        </Tab>
+        <Tab CommandName="cmdWindow">
+          <Tab.ScalingPolicy>
+            <ScalingPolicy>
+              <ScalingPolicy.IdealSizes>
+                <Scale Group="cmdGroup1" Size="Large" />
+                <Scale Group="cmdGroupPalettes" Size="Large" />
+                <Scale Group="cmdGroup3" Size="Large" />
+              </ScalingPolicy.IdealSizes>
+            </ScalingPolicy>
+          </Tab.ScalingPolicy>
+          <Group CommandName="cmdGroup1" SizeDefinition="OneButton">
+            <Button CommandName="cmdWindowShowHideAllPalettes" />
+          </Group>
+          <Group CommandName="cmdGroupPalettes" SizeDefinition="SixButtons">
+            <Button CommandName="cmdViewPaletteTool" />
+            <Button CommandName="cmdViewPaletteDimensions" />
+            <Button CommandName="cmdViewPaletteAccessory" />
+            <Button CommandName="cmdViewPaletteShowSize" />
+            <Button CommandName="cmdViewPaletteLibrary" />
+            <Button CommandName="cmdViewPaletteLayers" />
+          </Group>
+          <Group CommandName="cmdGroup3" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdWindowCascade" />
+            <Button CommandName="cmdWindowTile" />
+            <Button CommandName="cmdWindowArrangeIcons" />
+          </Group>
+        </Tab>
+        <Tab CommandName="cmdProperties">
+          <Tab.ScalingPolicy>
+            <ScalingPolicy>
+              <ScalingPolicy.IdealSizes>
+                <!-- This describes the maximum size of each group in the tab. -->
+                <Scale Group="cmdGroup1" Size="Large" />
+                <Scale Group="cmdGroupJustification" Size="Large" />
+                <Scale Group="cmdGroupVerticalPosition" Size="Large" />
+                <Scale Group="cmdGroupLineSpacing" Size="Large" />
+                <Scale Group="cmdGroupCase" Size="Large" />
+                <Scale Group="cmdGroup6" Size="Large" />
+                <Scale Group="cmdGroup7" Size="Large" />
+              </ScalingPolicy.IdealSizes>
+              <!-- This describes the order and how the groups shrink when the window is
+							resized. -->
+              <Scale Group="cmdGroup1" Size="Popup" />
+              <Scale Group="cmdGroupJustification" Size="Medium" />
+            </ScalingPolicy>
+          </Tab.ScalingPolicy>
+          <Group CommandName="cmdGroup1" SizeDefinition="OneButton">
+            <Button CommandName="cmdTextFontSelect" />
+          </Group>
+          <Group CommandName="cmdGroupJustification" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdTextJustificationLeft" />
+            <Button CommandName="cmdTextJustificationCenter" />
+            <Button CommandName="cmdTextJustificationRight" />
+          </Group>
+          <Group CommandName="cmdGroupVerticalPosition" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdTextVerticalPositionTop" />
+            <Button CommandName="cmdTextVerticalPositionMiddle" />
+            <Button CommandName="cmdTextVerticalPositionBottom" />
+          </Group>
+          <Group CommandName="cmdGroupLineSpacing" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdTextLineSpacingSingle" />
+            <Button CommandName="cmdTextLineSpacingOneAndAHalf" />
+            <Button CommandName="cmdTextLineSpacingDouble" />
+          </Group>
+          <Group CommandName="cmdGroupCase" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdTextCaseUpper" />
+            <Button CommandName="cmdTextCaseLower" />
+            <Button CommandName="cmdTextCaseTitle" />
+          </Group>
+          <Group CommandName="cmdGroup6" SizeDefinition="TwoButtons">
+            <Button CommandName="cmdTextSelectAll" />
+            <Button CommandName="cmdTextHide" />
+          </Group>
+          <Group CommandName="cmdGroup7" SizeDefinition="OneButton">
+            <Button CommandName="cmdTextColor" />
+          </Group>
+        </Tab>
+
+      </Ribbon.Tabs>
+    </Ribbon>
+  </Application.Views>
+</Application>

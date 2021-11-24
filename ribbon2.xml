@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!--
+// THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF
+// ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+// THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
+// PARTICULAR PURPOSE.
+//
+// Copyright (c) Microsoft Corporation. All rights reserved
+-->
+
+<Application xmlns='http://schemas.microsoft.com/windows/2009/Ribbon'>
+  <!-- Commands section -->
+  <Application.Commands>
+
+    <Command Name="cmdFile"
+             Comment="These comments are optional and are inserted into the header file."
+             Symbol="IDC_CMD_FILE"
+             Id="10000" >
+      <Command.LabelTitle>
+        <String Id ="3000">File</String>
+      </Command.LabelTitle>
+    </Command>
+    <!-- Optional Symbol and Id properties are not defined for the following commands.
+    A Symbol same as the name of the command 
+    and a valid Id for this command will be automatically generated. -->
+    <Command Name="cmdGroup1">
+      <!-- This image is used for when the group shrinks into a "pop-up".  The other groups
+      in the markup don't display as pop-ups, so we don't specify an image for them.  -->
+      <Command.SmallImages>
+        <Image Id="3001">ribbon/File/New.png</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="cmdGroup2"/>
+    <Command Name="cmdGroup3"/>
+    <Command Name="cmdGroup4"/>
+    <Command Name="cmdGroup5"/>
+    <Command Name="cmdGroup6"/>
+    <Command Name="cmdFileNewDrawing" Symbol="ID_CMD_FILE_NEW_DRAWING" Id="40100">
+      <Command.LabelTitle>
+        <String Id ="6000">New Document</String>
+      </Command.LabelTitle>
+      <!-- Providing both large and small images isn't required, but it usually improves the look
+      of your application if the control size changes. -->
+      <Command.LargeImages>
+        <Image Id="3011">ribbon/File/New.png</Image>
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Id="3012">ribbon/AddTableS.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="cmdFileOpen" Symbol="ID_CMD_FILE_OPEN" Id="0xE101">
+      <Command.LabelTitle>
+        <String Id ="3020">Open</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="3021">ribbon/File/Open.png</Image>
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Id="3022">ribbon/DeleteTableS.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="cmdFileLoadLayer" Symbol="ID_CMD_FILE_LOAD_LAYER" Id="25002">
+      <Command.LabelTitle>
+        <String Id ="3025">Load Layer</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="3026">ribbon/File/LoadLayer.png</Image>
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Id="3027">ribbon/DeleteTableS.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="cmdFileSave" Symbol="ID_CMD_FILE_SAVE" Id="0xE103">
+      <Command.LabelTitle>
+        <String Id ="3030">Save</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="3031">ribbon/File/Save.png</Image>
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Id="3032">ribbon/PrintRelationshipsS.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="cmdFileSaveAs" Symbol="ID_CMD_FILE_SAVE_AS" Id="0xE104">
+      <Command.LabelTitle>
+        <String Id ="3040">Save As</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="3041">ribbon/File/SaveAs.png</Image>
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Id="3042">ribbon/AddTableS.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="cmdFileRevert" Symbol="ID_CMD_FILE_REVERT" Id="25030">
+      <Command.LabelTitle>
+        <String Id ="3050">Revert</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="3051">ribbon/File/Revert.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdFileImportImage" Symbol="ID_CMD_FILE_IMPORT_IMAGE" Id="41212">
+      <Command.LabelTitle>
+        <String Id ="3060">Import Image</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="3061">ribbon/File/ImportImage.png</Image>
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Id="3062">ribbon/AddTableS.bmp</Image>
+      </Command.SmallImages>
+    </Command>
+    <Command Name="cmdFileExportReport" Symbol="ID_CMD_FILE_EXPORT_REPORT" Id="40105">
+      <Command.LabelTitle>
+        <String Id ="3070">Export Report</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="3071">ribbon/File/ExportReport.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdFileExportFile" Symbol="ID_CMD_FILE_EXPORT_FILE" Id="40109">
+      <Command.LabelTitle>
+        <String Id ="3080">Export File</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="3081">ribbon/File/ExportFile.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdFileSetDefaults" Symbol="ID_CMD_FILE_SET_DEFAULTS" Id="40108">
+      <Command.LabelTitle>
+        <String Id ="3090">Set Defaults</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="3091">ribbon/File/SetDefaults.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdFilePageSetup" Symbol="ID_CMD_FILE_PAGE_SETUP" Id="0xE105">
+      <Command.LabelTitle>
+        <String Id ="3100">Page Setup</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="3101">ribbon/File/PageSetup.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdFilePrint" Symbol="ID_CMD_FILE_PRINT" Id="0xE107">
+      <Command.LabelTitle>
+        <String Id ="3110">Print</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="3111">ribbon/File/Print.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdFilePrintSpecial" Symbol="ID_CMD_FILE_PRINT_SPECIAL" Id="0xE109">
+      <Command.LabelTitle>
+        <String Id ="3120">Print Special</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="3121">ribbon/File/PrintSpecial.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdEditPasteOptions" Symbol="ID_CMD_EDIT_PASTE_OPTIONS" Id="0xE109">
+      <Command.LabelTitle>
+        <String Id ="3120">Print Special</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id="3121">ribbon/File/PrintSpecial.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdQat"/>
+    <Command Name="cmdFileMenu"/>
+    <Command Name="cmdMRUList">
+      <Command.LabelTitle>
+        <String Id ="4080">MRU List</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdTest"
+             Comment="These comments are optional and are inserted into the header file."
+             Symbol="IDC_CMD_Test"
+             Id="10001" >
+      <Command.LabelTitle>
+        <String Id ="3001">Test</String>
+      </Command.LabelTitle>
+    </Command>
+    <Command Name="cmdExit" Symbol="IDC_CMD_EXIT">
+      <Command.LabelTitle>
+        <String Id ="4090">Exit Button</String>
+      </Command.LabelTitle>
+      <Command.LargeImages>
+        <Image Id ="4091">ribbon/ExitL.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+  </Application.Commands>
+  <Application.Views>
+    <Ribbon>
+      <Ribbon.ApplicationMenu>
+        <ApplicationMenu CommandName="cmdFileMenu">
+          <ApplicationMenu.RecentItems>
+            <RecentItems CommandName="cmdMRUList" MaxCount="1" />
+          </ApplicationMenu.RecentItems>
+          <MenuGroup Class="MajorItems">
+            <Button CommandName="cmdExit" />
+          </MenuGroup>
+        </ApplicationMenu>
+      </Ribbon.ApplicationMenu>
+      <Ribbon.Tabs>
+        <Tab CommandName="cmdFile">
+          <Tab.ScalingPolicy>
+            <ScalingPolicy>
+              <ScalingPolicy.IdealSizes>
+                <!-- This describes the maximum size of each group in the tab. -->
+                <Scale Group="cmdGroup1" Size="Large" />
+                <Scale Group="cmdGroup2" Size="Large" />
+                <Scale Group="cmdGroup3" Size="Large" />
+                <Scale Group="cmdGroup4" Size="Large" />
+                <Scale Group="cmdGroup5" Size="Large" />
+              </ScalingPolicy.IdealSizes>
+              <!-- This describes the order and how the groups shrink when the window is
+              resized. -->
+              <Scale Group="cmdGroup3" Size="Medium" />
+              <Scale Group="cmdGroup1" Size="Popup" />
+              <Scale Group="cmdGroup2" Size="Medium" />
+            </ScalingPolicy>
+          </Tab.ScalingPolicy>
+          <Group CommandName="cmdGroup1" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdFileNewDrawing" />
+            <Button CommandName="cmdFileOpen" />
+            <Button CommandName="cmdFileLoadLayer" />
+          </Group>
+          <Group CommandName="cmdGroup2" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdFileSave" />
+            <Button CommandName="cmdFileSaveAs" />
+            <Button CommandName="cmdFileRevert" />
+          </Group>
+          <Group CommandName="cmdGroup3" SizeDefinition="ThreeButtons">
+            <!-- You can put the same commands into multiple groups. -->
+            <Button CommandName="cmdFileImportImage" />
+            <Button CommandName="cmdFileExportReport" />
+            <Button CommandName="cmdFileExportFile" />
+          </Group>
+          <Group CommandName="cmdGroup4" SizeDefinition="OneButton">
+            <Button CommandName="cmdFileSetDefaults" />
+          </Group>
+          <Group CommandName="cmdGroup5" SizeDefinition="ThreeButtons">
+            <Button CommandName="cmdFilePageSetup" />
+            <Button CommandName="cmdFilePrint" />
+            <Button CommandName="cmdFilePrintSpecial" />
+            <DropDownButton >
+              
+            </DropDownButton>
+          </Group>
+        </Tab>
+      <Tab CommandName="cmdTest">
+        <Tab.ScalingPolicy>
+          <ScalingPolicy>
+            <ScalingPolicy.IdealSizes>
+              <!-- This describes the maximum size of each group in the tab. -->
+              <Scale Group="cmdGroup1" Size="Large" />
+              <Scale Group="cmdGroup2" Size="Large" />
+              <Scale Group="cmdGroup3" Size="Large" />
+              <Scale Group="cmdGroup4" Size="Large" />
+              <Scale Group="cmdGroup5" Size="Large" />
+            </ScalingPolicy.IdealSizes>
+            <!-- This describes the order and how the groups shrink when the window is
+              resized. -->
+            <Scale Group="cmdGroup3" Size="Medium" />
+            <Scale Group="cmdGroup1" Size="Popup" />
+            <Scale Group="cmdGroup2" Size="Medium" />
+          </ScalingPolicy>
+        </Tab.ScalingPolicy>
+        <Group CommandName="cmdGroup1" SizeDefinition="ThreeButtons">
+          <Button CommandName="cmdFileNewDrawing" />
+          <Button CommandName="cmdFileOpen" />
+          <Button CommandName="cmdFileLoadLayer" />
+        </Group>
+        <Group CommandName="cmdGroup2" SizeDefinition="ThreeButtons">
+          <Button CommandName="cmdFileSave" />
+          <Button CommandName="cmdFileSaveAs" />
+          <Button CommandName="cmdFileRevert" />
+        </Group>
+        <Group CommandName="cmdGroup3" SizeDefinition="ThreeButtons">
+          <!-- You can put the same commands into multiple groups. -->
+          <Button CommandName="cmdFileImportImage" />
+          <Button CommandName="cmdFileExportReport" />
+          <Button CommandName="cmdFileExportFile" />
+        </Group>
+        <Group CommandName="cmdGroup4" SizeDefinition="OneButton">
+          <Button CommandName="cmdFileSetDefaults" />
+        </Group>
+        <Group CommandName="cmdGroup5" SizeDefinition="ThreeButtons">
+          <Button CommandName="cmdFilePageSetup" />
+          <Button CommandName="cmdFilePrint" />
+          <Button CommandName="cmdFilePrintSpecial" />
+        </Group>
+        <!-- The SizeDefinitions describe how many buttons are in the group and how the
+          individual elements inside the group shrink.  -->
+        <Group CommandName="cmdGroup6" SizeDefinition="FiveOrSixButtons">
+          <Button CommandName="cmdFileSetDefaults" />
+          <Button CommandName="cmdFilePrint" />
+          <ToggleButton CommandName="cmdToggleButton1" />
+          <Button CommandName="cmdFilePrint" />
+          <ToggleButton CommandName="cmdToggleButton2" />
+        </Group>
+      </Tab>
+      </Ribbon.Tabs>
+      <Ribbon.QuickAccessToolbar>
+        <QuickAccessToolbar CommandName="cmdQat" />
+      </Ribbon.QuickAccessToolbar>
+    </Ribbon>
+  </Application.Views>
+</Application>

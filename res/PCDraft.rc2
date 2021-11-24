@@ -1,0 +1,66 @@
+//
+// PCDRAFT.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+	#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+
+/////////////////////////////////////////////////////////////////////////////
+#ifdef _POWER_EDITION
+#ifdef _DEMO
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "PCDraft Demo"
+    AFX_IDS_APP_TITLE       "PCDraft Demo"
+    IDS_DDE_TITLE           "PCDraft Demo"
+    ID_TOOL_MARKER          "Use this tool to draw markers, do repeated pastes,\nand edit the datum points of a selected object."
+    ID_TOOL_REP_PASTE       "Use this tool to draw markers, do repeated pastes,\nand edit the datum points of a selected object."
+    ID_FILE_LOAD_LAYER      "Load a layer from existing drawing. Also adds TIFF files\nLoad layer"
+    ID_EDIT_MOVE            "Moves the selected objects by a specified amount or to a specific location or layer"
+    IDS_MANUAL              "PC Draft Manual.pdf"
+END
+#else
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "PCDraft"
+    AFX_IDS_APP_TITLE       "PCDraft"
+    IDS_DDE_TITLE           "PCDraft"
+    ID_TOOL_MARKER          "Use this tool to draw markers, do repeated pastes,\nand edit the datum points of a selected object."
+    ID_TOOL_REP_PASTE       "Use this tool to draw markers, do repeated pastes,\nand edit the datum points of a selected object."
+    ID_FILE_LOAD_LAYER      "Load a layer from existing drawing. Also adds TIFF files\nLoad layer"
+    ID_EDIT_MOVE            "Moves the selected objects by a specified amount or to a specific location or layer"
+    IDS_MANUAL              "PC Draft Manual.pdf"
+END
+#endif
+#else  // _PERSONAL_EDITION
+#ifdef _DEMO
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "PCDraft P.E. Demo"
+    AFX_IDS_APP_TITLE       "PCDraft P.E. Demo"
+    IDS_DDE_TITLE           "PCDraft P.E. Demo"
+    ID_TOOL_MARKER          "Use this tool to draw markers and do repeated pastes."
+    ID_TOOL_REP_PASTE       "Use this tool to draw markers and do repeated pastes."
+    ID_FILE_LOAD_LAYER      "Import Bitmap and TIFF files\nImport"
+    ID_EDIT_MOVE            "Moves the selected objects by a specified amount or to a specific location"
+    IDS_MANUAL              "PC Draft P.E. Manual.pdf"
+END
+#else
+STRINGTABLE PRELOAD DISCARDABLE
+BEGIN
+    IDR_MAINFRAME           "PCDraft P.E."
+    AFX_IDS_APP_TITLE       "PCDraft P.E."
+    IDS_DDE_TITLE           "PCDraft P.E"
+    ID_TOOL_MARKER          "Use this tool to draw markers and do repeated pastes."
+    ID_TOOL_REP_PASTE       "Use this tool to draw markers and do repeated pastes."
+    ID_FILE_LOAD_LAYER      "Import Bitmap and TIFF files\nImport"
+    ID_EDIT_MOVE            "Moves the selected objects by a specified amount or to a specific location"
+    IDS_MANUAL              "PC Draft P.E. Manual.pdf"
+END
+#endif
+#endif

@@ -1,0 +1,3402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2b7725b5-28f0-4a02-bcd3-6416b8622446}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{fc029cf1-3a6c-42fa-ac0b-757e62a67ab3}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{bd61d20b-9b25-45ae-b8a8-b66afcd71899}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Source Files\text_format_rtf">
+      <UniqueIdentifier>{133937c4-4601-46b0-a2d8-8bcdcc38378b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\text_format_rtf">
+      <UniqueIdentifier>{a2c512fb-7351-4876-8580-68a33ef6c433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MD">
+      <UniqueIdentifier>{0534787f-6e3d-447f-a756-8846f7927267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Library">
+      <UniqueIdentifier>{b808cb69-6f7b-4a70-bd92-4e8cd2d313f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LoadSave">
+      <UniqueIdentifier>{a3dda2aa-f918-43a5-8475-c9b6a45eb823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialog">
+      <UniqueIdentifier>{3dcad4ad-d2a9-418d-93a2-394613de97e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sketcher">
+      <UniqueIdentifier>{0e91871b-f49d-461e-a876-46ea19a774b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Window">
+      <UniqueIdentifier>{f022c516-f92b-4654-862b-657a8de8f4b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dialog">
+      <UniqueIdentifier>{b2227d4a-f674-4ec2-97fa-a795b5c1cb64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sketcher">
+      <UniqueIdentifier>{7162cd0a-d420-4cda-bf60-b1edb43398ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MD">
+      <UniqueIdentifier>{a30d9ef4-7962-4687-8020-e9cfbfde9cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Library">
+      <UniqueIdentifier>{307688d3-b4b1-44b0-8ae0-d5b718ecfdfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Layer">
+      <UniqueIdentifier>{f932e4d7-48f9-4c47-b72c-8aee44d7185f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Layer">
+      <UniqueIdentifier>{b9e3c838-116a-494b-96b6-51318762ff9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LoadSave">
+      <UniqueIdentifier>{7eb88ff6-391e-4eae-959a-900503b29b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Palette">
+      <UniqueIdentifier>{1b068c45-4d3d-43dd-b77c-d5f62cf2bb2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Symbol">
+      <UniqueIdentifier>{acb8142d-e0ec-4a51-b422-eaa99d1e09ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Window">
+      <UniqueIdentifier>{636c1a37-a940-4751-a527-34c239b17c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Report">
+      <UniqueIdentifier>{ffb5b847-89be-4b8d-a686-51674d3d0edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Symbol">
+      <UniqueIdentifier>{5abd60df-03ef-4a00-b559-32855efb2b28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Report">
+      <UniqueIdentifier>{48501ca5-c973-4eba-8417-bed8ac748d90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Palette">
+      <UniqueIdentifier>{89f16f0c-8631-4a3a-a917-32dd1b188803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ribbon Images">
+      <UniqueIdentifier>{99f08719-10a1-4975-886b-4c5896030789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ribbon Files">
+      <UniqueIdentifier>{b63c92ff-db02-48a9-8dc8-694b2856486f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PCDraft">
+      <UniqueIdentifier>{22e7b199-33f6-49ff-9cec-891aeff43dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PCDraft">
+      <UniqueIdentifier>{d2390c51-7528-46b4-933e-0484ca96e3dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Palette\ODA">
+      <UniqueIdentifier>{54e704ab-9058-4833-88e9-7baf6f5f85c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Palette\ODA\Drawings">
+      <UniqueIdentifier>{d70b8150-bf5a-459c-8e29-1277e5de7058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Palette\ODA\Drawings\Extensions">
+      <UniqueIdentifier>{47f81277-b20a-4187-bf46-b4d955c5ecc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Palette\ODA\Drawings\Extensions\ExServices">
+      <UniqueIdentifier>{2b7da385-960e-42b3-a2b7-7740c38bb48a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Palette\ODA\Kernel">
+      <UniqueIdentifier>{2c20eab1-5ccb-4556-b8c3-dc378feff674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Palette\ODA\Kernel\Extensions">
+      <UniqueIdentifier>{00c568c6-5e41-4cd8-901b-96506074632d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Palette\ODA\Kernel\Extensions\ExServices">
+      <UniqueIdentifier>{63b6ecc8-8538-4aed-901b-3634c9f71d54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Welcome">
+      <UniqueIdentifier>{510e1182-4e94-4fa9-9350-05529fbc6862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Welcome">
+      <UniqueIdentifier>{2ae1ebff-0837-45a7-9985-24e8262b4f5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="text_format_rtf\attributes_stack.cpp">
+      <Filter>Source Files\text_format_rtf</Filter>
+    </ClCompile>
+    <ClCompile Include="text_format_rtf\colors_stack.cpp">
+      <Filter>Source Files\text_format_rtf</Filter>
+    </ClCompile>
+    <ClCompile Include="text_format_rtf\fonts_stack.cpp">
+      <Filter>Source Files\text_format_rtf</Filter>
+    </ClCompile>
+    <ClCompile Include="text_format_rtf\processor.cpp">
+      <Filter>Source Files\text_format_rtf</Filter>
+    </ClCompile>
+    <ClCompile Include="text_format_rtf\processor_convert.cpp">
+      <Filter>Source Files\text_format_rtf</Filter>
+    </ClCompile>
+    <ClCompile Include="text_format_rtf\processor_parser.cpp">
+      <Filter>Source Files\text_format_rtf</Filter>
+    </ClCompile>
+    <ClCompile Include="text_format_rtf\processor_processor.cpp">
+      <Filter>Source Files\text_format_rtf</Filter>
+    </ClCompile>
+    <ClCompile Include="text_format_rtf\rtf_part.cpp">
+      <Filter>Source Files\text_format_rtf</Filter>
+    </ClCompile>
+    <ClCompile Include="text_format_rtf\source.cpp">
+      <Filter>Source Files\text_format_rtf</Filter>
+    </ClCompile>
+    <ClCompile Include="text_format_rtf\text_format_rtf.cpp">
+      <Filter>Source Files\text_format_rtf</Filter>
+    </ClCompile>
+    <ClCompile Include="text_format_rtf\std_logger.cpp">
+      <Filter>Source Files\text_format_rtf</Filter>
+    </ClCompile>
+    <ClCompile Include="text_format_rtf\std_source.cpp">
+      <Filter>Source Files\text_format_rtf</Filter>
+    </ClCompile>
+    <ClCompile Include="text_format_rtf\std_output.cpp">
+      <Filter>Source Files\text_format_rtf</Filter>
+    </ClCompile>
+    <ClCompile Include="text_format_rtf\output.cpp">
+      <Filter>Source Files\text_format_rtf</Filter>
+    </ClCompile>
+    <ClCompile Include="text_format_rtf\writer.cpp">
+      <Filter>Source Files\text_format_rtf</Filter>
+    </ClCompile>
+    <ClCompile Include="text_format_rtf\processor_base.cpp">
+      <Filter>Source Files\text_format_rtf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drawings\Drawing\Extensions\ExServices\ExFileUndoController.cpp">
+      <Filter>Source Files\Palette\ODA\Drawings\Extensions\ExServices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drawings\Drawing\Extensions\ExServices\ExHostAppServices.cpp">
+      <Filter>Source Files\Palette\ODA\Drawings\Extensions\ExServices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drawings\Drawing\Extensions\ExServices\ExUndoController.cpp">
+      <Filter>Source Files\Palette\ODA\Drawings\Extensions\ExServices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drawings\Kernel\Extensions\ExServices\ExGiRasterImage.cpp">
+      <Filter>Source Files\Palette\ODA\Kernel\Extensions\ExServices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drawings\Kernel\Extensions\ExServices\ExSystemServices.cpp">
+      <Filter>Source Files\Palette\ODA\Kernel\Extensions\ExServices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drawings\Kernel\Extensions\ExServices\OdFileBuf.cpp">
+      <Filter>Source Files\Palette\ODA\Kernel\Extensions\ExServices</Filter>
+    </ClCompile>
+    <ClCompile Include="MDAngularDim.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDArcShape.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDArea.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDAssocDim.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDBezierShape.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDBitmap.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDCenterDim.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDCircle.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDCubicShape.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDDimLine.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDDimStr.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDEllipse.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDFillShape.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDGroupShape.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDLineDim.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDLineShape.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDMetaPolyShape.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDParallelLine.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDParallelPolygon.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDPolygonShape.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDPrintDlg.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDRAdialDim.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDRectangle.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDReport.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDRndRectangle.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDShape.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="MDText.cpp">
+      <Filter>Source Files\MD</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryDoc.cpp">
+      <Filter>Source Files\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryDragDrop.cpp">
+      <Filter>Source Files\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryDragSource.cpp">
+      <Filter>Source Files\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryDropTarget.cpp">
+      <Filter>Source Files\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryFooter.cpp">
+      <Filter>Source Files\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryFrame.cpp">
+      <Filter>Source Files\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryImageListView.cpp">
+      <Filter>Source Files\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryImageSplitView.cpp">
+      <Filter>Source Files\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryImageTreeView.cpp">
+      <Filter>Source Files\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryListView.cpp">
+      <Filter>Source Files\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryMainView.cpp">
+      <Filter>Source Files\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryObject.cpp">
+      <Filter>Source Files\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryPhoto.cpp">
+      <Filter>Source Files\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="LibrarySplitView.cpp">
+      <Filter>Source Files\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryTreeView.cpp">
+      <Filter>Source Files\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadMD60.cpp">
+      <Filter>Source Files\LoadSave</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadMD70.cpp">
+      <Filter>Source Files\LoadSave</Filter>
+    </ClCompile>
+    <ClCompile Include="Load55.cpp">
+      <Filter>Source Files\LoadSave</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadRTF.cpp">
+      <Filter>Source Files\LoadSave</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveMD60.cpp">
+      <Filter>Source Files\LoadSave</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveMD70.cpp">
+      <Filter>Source Files\LoadSave</Filter>
+    </ClCompile>
+    <ClCompile Include="Save55.cpp">
+      <Filter>Source Files\LoadSave</Filter>
+    </ClCompile>
+    <ClCompile Include="AddGuideByPositionDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="AlignmentOptionsDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationDefaultsDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributeOptionsDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="BadDWGObjectDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ChamferSetupDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ChooseColorDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleDupDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CloneAgainDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CloneOptionsDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CloneFtInUnitDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CloneUnitsDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ContractExpandDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DimFormatDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DimStandardDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DocDefaultsDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingSizeDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="EditDimFormatDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="EditDimStandardDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DWGUnitsDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="EditLineStyleDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="EditPatternDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendLineDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldNamesDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="FilletSetupDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="FindReplaceDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectInfoDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveObjectDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="MoreWindowsDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="MirrorSetupDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadReportDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadLayerDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearDupDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerSetupDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="TrimSetupDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="SlideShowDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectViewDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectSpecialDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectObjectInfoDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ScaleUnitsDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveViewDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateOptionsDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ArcSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="AngularDimSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstrLineSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="CubicSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="BezierSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtrudeSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="AlignmentOptionsWnd.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="AttribSettingsWnd.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingSizeWnd.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="EditLineStyleWnd.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="EditPatternWnd.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="EllipticSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="DistributeSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="GradientEditWnd.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="GradientPreviewWnd.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="LineDimSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="FreehandSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="RubberBandSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="RndRectSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="PhIOStruct_MD60.cpp">
+      <Filter>Source Files\LoadSave</Filter>
+    </ClCompile>
+    <ClCompile Include="PhIOStruct_MD70.cpp">
+      <Filter>Source Files\LoadSave</Filter>
+    </ClCompile>
+    <ClCompile Include="ParallelLineSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="ParallelPolySketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoomInSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoomSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="sketcher.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportOutputDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportFormatsDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="RegularPolyDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="OriginSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="OffsetCircleSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="OffsetArcSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="StarSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="RefLineSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="RefPointSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="RadialDimSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialLineSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="RegPolySketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="RectSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="PolySketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="TangentLineSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="EndmarksWnd.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="ParallelLineDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="PasswordDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="LineStyleWnd.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="LineWidthWnd.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="TextSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistrationDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintSlidesDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="RenameDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GradientDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="BetaDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="TransparencySettingsWnd.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowBmpWnd.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="FillWnd.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="StarDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsAutoSaveDlg.cpp">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Source Files\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerDoc.cpp">
+      <Filter>Source Files\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerFooter.cpp">
+      <Filter>Source Files\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerFrame.cpp">
+      <Filter>Source Files\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerHeader.cpp">
+      <Filter>Source Files\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerListBox.cpp">
+      <Filter>Source Files\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerListView.cpp">
+      <Filter>Source Files\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerMainView.cpp">
+      <Filter>Source Files\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="LineSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbolFrame.cpp">
+      <Filter>Source Files\Symbol</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbolLibraryDoc.cpp">
+      <Filter>Source Files\Symbol</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbolLibraryView.cpp">
+      <Filter>Source Files\Symbol</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbolScrollView.cpp">
+      <Filter>Source Files\Symbol</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbolToolFrame.cpp">
+      <Filter>Source Files\Symbol</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbolToolView.cpp">
+      <Filter>Source Files\Symbol</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowSizePalette.cpp">
+      <Filter>Source Files\Palette</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolPalette.cpp">
+      <Filter>Source Files\Palette</Filter>
+    </ClCompile>
+    <ClCompile Include="ribbon.c">
+      <Filter>Ribbon Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AttribPalette.cpp">
+      <Filter>Source Files\Palette</Filter>
+    </ClCompile>
+    <ClCompile Include="AlignPalette.cpp">
+      <Filter>Source Files\Palette</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportEditFrame.cpp">
+      <Filter>Source Files\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportEditView.cpp">
+      <Filter>Source Files\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportPreFrame.cpp">
+      <Filter>Source Files\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportPreView.cpp">
+      <Filter>Source Files\Report</Filter>
+    </ClCompile>
+    <ClCompile Include="ResizePalette.cpp">
+      <Filter>Source Files\Palette</Filter>
+    </ClCompile>
+    <ClCompile Include="DimPalette.cpp">
+      <Filter>Source Files\Palette</Filter>
+    </ClCompile>
+    <ClCompile Include="AccPalette.cpp">
+      <Filter>Source Files\Palette</Filter>
+    </ClCompile>
+    <ClCompile Include="AddContext.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="ArcEdge.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrowButton.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="AttachContext.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="BezierEdge.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="ChamferContext.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="ColUtils.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandLineInfoEx.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomMenus.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomMiniDockFrameWnd.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomMiniFrameWnd.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="DimStructs.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="DimUnit.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="DocMapper.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="DpiAwareness.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawPrim.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawPrimArc.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="DSShape.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="DWGImport.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="DXFUtil.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="Edge.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="excel.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="FactorMapper.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="FileDialogEx.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="FilletContext.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="FireWall.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="FontSubctitute.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="GradientPack.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="gu.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="InplaceEdit.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="K32exp.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkVertex.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="ListControl.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="lpoint.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="MacButton.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="MacGWorld.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix3x2.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaContext.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="NetGuard.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberEdit.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="OffScreenDC.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenDWG.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenDWGio.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="PackedDIB.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="PackedItem.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="PCDraft.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="PCDraftDoc.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="PCDraftView.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="phmath.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="PrinterSettings.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="RibbonBar.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="RibbonProperties.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="SavedView.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchBox.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialNumber.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellRegistryHelper.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="SlideShowFrame.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="SlideShowView.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitView.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="StyledText.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="SubContext.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="TabBar.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="tiff.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="TransparencyBar.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="TrimContext.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTemplate.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="WinVistaTools.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="wrfixed.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLite.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="GuideSketcher.cpp">
+      <Filter>Source Files\Sketcher</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressControl.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="Import.cpp">
+      <Filter>Source Files\LoadSave</Filter>
+    </ClCompile>
+    <ClCompile Include="imm_client.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="imm_context.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="DraftContext.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="FontInfo.cpp">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClCompile>
+    <ClCompile Include="MDSave55.cpp">
+      <Filter>Source Files\LoadSave</Filter>
+    </ClCompile>
+    <ClCompile Include="MDSaveMD60.cpp">
+      <Filter>Source Files\LoadSave</Filter>
+    </ClCompile>
+    <ClCompile Include="MDSaveMD70.cpp">
+      <Filter>Source Files\LoadSave</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\GetStartedButton.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\GetStartedWnd.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\GetStartedCheckBox.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\ControlBoxButton.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\ControlBox.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\BaseWnd.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\TemplateLeftButton.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\TemplateLeftWnd.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\TemplateWnd.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\WelcomeWnd.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\WelcomeButton.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\WelcomeEdit.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\WelcomeStatic.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\WelcomeInnerEdit.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\BaseControl.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\TemplateSearchEdit.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\TemplateStatic.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\TemplateComboBox.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\TemplateDropButton.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\TemplateDropList.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\TemplateRecentWnd.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\aaa_TemplateRecentButton.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\aaa_TemplateRecentTitle.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\TemplateCategoryWnd.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\ScrollHelper.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\memory_dc.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\recent_file_list.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\FileStatusW.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\GetStartedHelpButton.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\FileDialogW.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\FileDialogExW.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome\StaticEx.cpp">
+      <Filter>Source Files\Welcome</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ribbon.rc">
+      <Filter>Ribbon Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="PCDraft.rc">
+      <Filter>Source Files\PCDraft</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="text_format_rtf\___rich_text_format.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\_text_format_rtf.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\attribute.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\attributes.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\attributes_stack.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\codepage_info.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\colors.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\colors_stack.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\const.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\file_image_manager.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\font_stack.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\fonts.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\image_descriptor.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\image_manager.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\impl_observer.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\impl_processor.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\impl_source.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\observer.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\output.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\parser.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\processor.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\resource1.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\source.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\text_style.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\framework.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\std_logger.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\std_source.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\writer_defs.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\writer.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\stream_source.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\std_output.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\fonts_stack.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="text_format_rtf\processor_base.h">
+      <Filter>Header Files\text_format_rtf</Filter>
+    </ClInclude>
+    <ClInclude Include="BezierSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="AddGuideByPositionDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignmentOptionsDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationDefaultsDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ArcSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributeOptionsDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="BadDWGObjectDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="BetaDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ChamferSetupDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ChooseColorDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleDupDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CloneFtInUnitDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CloneAgainDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CloneOptionsDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CloneUnitsDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ContractExpandDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstrLineSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="DimFormatDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DimStandardDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DistributeSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="DocDefaultsDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingSizeDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="EditDimFormatDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="EditDimStandardDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="EditLineStyleDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CubicSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="MDAngularDim.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDArcShape.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDArea.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDAssocDim.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDBezierShape.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDBitmap.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDCenterDim.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDCircle.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDCubicShape.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDDimLine.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDDimStr.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDEllipse.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDFillShape.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDGroupShape.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDLineDim.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDLineShape.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDMetaPolyShape.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDParallelLine.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDParallelPolygon.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDPolygonShape.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDPrintDlg.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDRAdialDim.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDRectangle.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDReport.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDRndRectangle.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDShape.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="MDText.h">
+      <Filter>Header Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryDoc.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryDragDrop.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryDragSource.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryDropTarget.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryFooter.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryFrame.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryImageListView.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryImageSplitView.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryImageTreeView.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryListView.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryMainView.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryObject.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryPhoto.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="LibrarySplitView.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryTreeView.h">
+      <Filter>Header Files\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Header Files\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerDoc.h">
+      <Filter>Header Files\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerFooter.h">
+      <Filter>Header Files\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerFrame.h">
+      <Filter>Header Files\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerHeader.h">
+      <Filter>Header Files\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerListBox.h">
+      <Filter>Header Files\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerListView.h">
+      <Filter>Header Files\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerMainView.h">
+      <Filter>Header Files\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerSetupDlg.h">
+      <Filter>Header Files\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="EditPatternDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="DWGUnitsDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="AngularDimSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="EllipticSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtrudeSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="FindReplaceDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="FilletSetupDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendLineDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="GradientDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearDupDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadLayerDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadReportDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="MoreWindowsDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="MirrorSetupDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveObjectDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectInfoDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ParallelLineDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintSlidesDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportOutputDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportFormatsDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectObjectInfoDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectSpecialDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectViewDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="SlideShowDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoomSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoomInSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="StarSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialLineSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="RubberBandSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="RndRectSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="RectSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="RefLineSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="RadialDimSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="ParallelPolySketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="ParallelLineSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="OffsetCircleSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="OffsetArcSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="RefPointSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="RegPolySketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsAutoSaveDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="TextSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="TangentLineSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="sketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="StarDialog.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldNamesDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="PasswordDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistrationDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="RegularPolyDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="RenameDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateOptionsDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveViewDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ScaleUnitsDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="FreehandSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="OriginSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="PhIOStruct.h">
+      <Filter>Header Files\LoadSave</Filter>
+    </ClInclude>
+    <ClInclude Include="PhIOStruct_55.h">
+      <Filter>Header Files\LoadSave</Filter>
+    </ClInclude>
+    <ClInclude Include="PhIOStruct_MD60.h">
+      <Filter>Header Files\LoadSave</Filter>
+    </ClInclude>
+    <ClInclude Include="PhIOStruct_MD70.h">
+      <Filter>Header Files\LoadSave</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadRTF.h">
+      <Filter>Header Files\LoadSave</Filter>
+    </ClInclude>
+    <ClInclude Include="LineDimSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="LineSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="PolySketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="AttribSettingsWnd.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignmentOptionsWnd.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="AccPalette.h">
+      <Filter>Header Files\Palette</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignPalette.h">
+      <Filter>Header Files\Palette</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolToolView.h">
+      <Filter>Header Files\Symbol</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolFrame.h">
+      <Filter>Header Files\Symbol</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolLibraryDoc.h">
+      <Filter>Header Files\Symbol</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolLibraryView.h">
+      <Filter>Header Files\Symbol</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolScrollView.h">
+      <Filter>Header Files\Symbol</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolToolFrame.h">
+      <Filter>Header Files\Symbol</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowSizePalette.h">
+      <Filter>Header Files\Palette</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowBmpWnd.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="TransparencySettingsWnd.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="TrimSetupDlg.h">
+      <Filter>Header Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="GradientPreviewWnd.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="GradientEditWnd.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="EndmarksWnd.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="EditPatternWnd.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="EditLineStyleWnd.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolPalette.h">
+      <Filter>Header Files\Palette</Filter>
+    </ClInclude>
+    <ClInclude Include="AttribPalette.h">
+      <Filter>Header Files\Palette</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingSizeWnd.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportEditFrame.h">
+      <Filter>Header Files\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportEditView.h">
+      <Filter>Header Files\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportPreFrame.h">
+      <Filter>Header Files\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportPreView.h">
+      <Filter>Header Files\Report</Filter>
+    </ClInclude>
+    <ClInclude Include="DimPalette.h">
+      <Filter>Header Files\Palette</Filter>
+    </ClInclude>
+    <ClInclude Include="LineStyleWnd.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="LineWidthWnd.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="ResizePalette.h">
+      <Filter>Header Files\Palette</Filter>
+    </ClInclude>
+    <ClInclude Include="AddContext.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="ArcEdge.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrowButton.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="AttachContext.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="BezierEdge.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="ChamferContext.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="ColIOStruct.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="ColUtils.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomMenus.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomMiniDockFrameWnd.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomMiniFrameWnd.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="DimStructs.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="DimUnit.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="DocMapper.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="DpiAwareness.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="DraftContext.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawPrim.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="DSShape.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="DXF.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="DXFUtil.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="Edge.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="excel.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenDWG\TD\Extensions\ExServices\ExUndoController.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="FactorMapper.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDialogEx.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="FilletContext.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="FillWnd.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="FireWall.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="FontSubctitute.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="frameworkh.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="GDIHelper.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="GradientPack.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="gu.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="Import.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="InplaceEdit.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="IShapeSelectedNotify.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="K32exp.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkVertex.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="ListControl.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="lpoint.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="MacButton.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="MacGWorld.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="macutils.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix3x2.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaContext.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="MistakeCounter.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="netfw.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="NetGuard.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberEdit.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="OffScreenDC.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDWG.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDWGio.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="PackedDIB.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="PackedItem.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="PCDraft.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="PCDraftDoc.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="PCDraftRibbon.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="PCDraftView.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="phmath.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="PrinterSettings.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="ribbon.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="RibbonBar.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="RibbonProperties.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="SavedView.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchBox.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialNumber.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellRegistryHelper.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="SlideShowFrame.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="SlideShowView.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitView.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="StyledText.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="SubContext.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="TabBar.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="tiff.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="TransparencyBar.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="TrimContext.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTemplate.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="WinVistaTools.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="wrfixed.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLite.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="GuideSketcher.h">
+      <Filter>Header Files\Sketcher</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>Source Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressControl.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="pointd.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="pointf.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="imm_client.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="imm_context.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="FontInfo.h">
+      <Filter>Header Files\PCDraft</Filter>
+    </ClInclude>
+    <ClInclude Include="MDFiloPoly.h">
+      <Filter>Source Files\MD</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\GetStartedWnd.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\GetStartedButton.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\GetStartedCheckBox.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\ControlBox.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\ControlBoxButton.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\BaseWnd.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\TemplateLeftButton.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\TemplateLeftWnd.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\TemplateWnd.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\WelcomeWnd.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\WelcomeButton.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\WelcomeEdit.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\WelcomeStatic.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\WelcomeInnerEdit.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\BaseControl.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\TemplateSearchEdit.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\TemplateStatic.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\TemplateComboBox.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\TemplateDropButton.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\TemplateDropList.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\TemplateRecentWnd.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\aaa_TemplateRecentTitle.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\aaa_TemplateRecentButton.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\TemplateCategoryWnd.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\ScrollHelper.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\memory_dc.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\FindFileW.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\MirrorFile.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\FileStatusW.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\recent_file_list.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\FileDialogExW.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\FileDialogW.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome\StaticEx.h">
+      <Filter>Header Files\Welcome</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\1000.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\130.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\133.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\active_layer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\align_bottom.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\align_disth_center.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\align_disth_datum.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\align_distv_center.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\align_distv_datum.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\align_grid.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\align_hcenter.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\align_left.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\align_right.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\align_top.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\align_vcenter.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\annot_a.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\annot_b.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\attrib_drop.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bucket.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bucket_mask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\color_picker.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\cursor_prompts.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dash_cm.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dash_inch.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\endmark_picker.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\endmarks.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\layer.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\linked.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mini_max.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mini_max_down.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mini_res.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mini_res_down.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat01.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat02.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat03.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat04.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat05.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat07.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat08.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat09.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat21.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat22.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat23.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat24.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat25.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat26.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat27.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat28.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat29.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat30.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat31.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat32.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat33.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat34.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat35.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat36.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat37.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat38.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat39.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat40.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat41.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat42.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat43.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat44.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat45.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat46.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat47.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat48.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat49.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat50.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat51.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat52.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat53.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat54.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat55.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat56.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat57.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat58.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat59.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat60.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat61.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat62.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat63.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat64.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat65.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat66.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat67.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat68.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat69.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat70.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pat71.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\patdot.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pattern_picker.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PCDraft.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PCDraftDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pe_bucket.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pe_fliph.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pe_flipv.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pe_hand.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pe_invert.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pe_pen.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pe_thumb.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pen.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pen_mask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pen_mask2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pfill.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pfill_mask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pl_align1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pl_align2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pl_align3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pl_endcap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pl_endcap2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pl_endcap3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pl_endcap4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pl_joint1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pl_joint2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pn1234.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pn1324.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ps_blade.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ps_round.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\registration.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\report.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\report.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\resize_less.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\resize_more.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\stationary.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\style_picker.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\symlib.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\thumb.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\thumb_mask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_1_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_arc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_arrow.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_chamfer.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_circle.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_combine.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_constr_line.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_curve.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_dim_angular.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_dim_center.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_dim_diameter.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_dim_horiz.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_dim_perp.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_dim_radius.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_dim_slope.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_dim_vert.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_ellipse.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_extent.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_fillet.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_glass.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_glue.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_handle.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_link.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_mark.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_marker.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_marker_pe.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_marquee.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_mask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_mirror.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_multiunlink.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_pan.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_parallel_line.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_perp_line.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_poly.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_rc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_rect.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_regular_poly.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_rotate.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_rotate_90.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_subtract.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_text.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_trim.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_unglue.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_unlink.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\visible_layer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\width_menu.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\width_picker.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pcdraft_transparency.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tool_par.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PCDraftPro.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PCDraftProDocument.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PCDraftPE.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PCDraftPEDocument.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_symb.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Library32.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\zoom_library_less.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\zoom_library_more.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\open_library.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\library_open_sel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\library_zoom_less.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\library_zoom_more.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\library_open.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\search.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\layer_add.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\layer_add_sel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\layer_delete.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\layer_delete_disabled.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\layer_delete_sel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\layer_menu_sel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\layer_menu.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\layer_merge.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\layer_merge_disabled.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\layer_merge_sel.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ribbon\AddTableS.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ribbon\DeleteTableS.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ribbon\PrintRelationshipsS.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ribbon\ExitL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\save.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\undo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\redo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\help.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ribbon_collapse.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ribbon_expand.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bucket1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bucket_m.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\color_ma.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\color1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\alpha.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\color_mask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\alpha_mask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\color.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\resize_m.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\resize_grip.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\AlignAgain.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\AlignBottom18x18.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\AlignHorizontalCenter18x18.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\AlignLeft18x18.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\AlignOptions.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\AlignRight18x18.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\AlignTop18x18.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\AlignVerticalCenter18x18.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Edit\ApplyAttributes.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Window\ArrangeIcons.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Edit\AttributeOptions.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Options\BorderCenter.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Options\BorderInside.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Options\BorderOutside.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Data\BreakLink.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\BringToFront.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Window\Cascade.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Edit2\Circular-Duplication.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Edit2\clear.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Edit\Contract.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Edit\Copy15x15.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Edit\CopyAttributes.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Options\CrossCursor.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Edit\Cut15x15.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\DistributeHorizontalCenter19x19.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\DistributeHorizontalDatum19x19.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\DistributeOnLine.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\DistributeVerticalCenter19x19.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\DistributeVerticalDatum19x19.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Layout\DrawingSize.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Edit\Duplicate.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Options\DuplicatePatternGradient.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Options\EditColor.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Edit\EditDatum.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Data\EditFieldNames.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Options\EditLineStyles.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Data\EditObjectInfo.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Options\EditPatternGradient.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Edit\Expand.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\File\ExportFile.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\File\ExportReport.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Data\FindReplace.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\FlipHorizontal.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\FlipVertical.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\Group.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Options\HideShowFills.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Options\HideShowLineStyles.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Text\HideText.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\View\HomeView.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\File\ImportImage.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Text\JustifyCenter.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Text\JustifyLeft.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Text\JustifyRight.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="res\layer_active.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="res\layer_dropdown.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="res\layer_gray.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="res\layer_invisible.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="res\layer_locked.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="res\layer_visible.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="res\Library32.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Edit2\Linear-Duplication.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Text\LineSpace1.5.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Text\LineSpacingDouble.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Text\LineSpacingSingle.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\File\LoadLayer.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\Lock.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Text\Lowercase.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Edit\Move.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\MoveBack.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\MoveForward.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\File\New.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Options\NewColor.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Options\NewGradient.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Options\NewPattern.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\File\Open.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\File\PageSetup.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\View\PaletteAccessory.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\View\PaletteDimension.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\View\PaletteLayers.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\View\PaletteLibrary.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\View\PaletteShowSize.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\View\PaletteTool.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Edit\Paste15x15.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Edit\PasteOptions.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Options\PenStyleBlade.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Options\PenStyleRound.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Layout\Position.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Text\PositionBottom.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Text\PositionMiddle.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Text\PositionTop.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\File\Print.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Data\PrintReport.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\File\PrintSpecial.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\File\quitPCDraft.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\File\Recent.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Redo20x20.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Data\ReportFormats.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Edit\Reshape.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\View\RestoreZoom.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\File\Revert.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\Rotate.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\RotateOptions.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\RotateToZero.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\File\Save.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Save20x20.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\File\SaveAs.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Layout\ScaledRulers.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Edit\SelectAll.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Text\SelectAllText.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Text\SelectFont.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Edit\SelectNone.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Edit\SelectSpecial.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\SendToBack.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Layout\SetAngle.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\File\SetDefaults.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Layout\SetGrid.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Layout\SetScaleUnits.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="res\shortcut.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Window\ShowHideAllPlettes.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\View\ShowHideArea.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\View\ShowHideCursorPosition.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Layout\ShowHideGrid.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Layout\ShowHidePageBreaks.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Layout\ShowHideRulers.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\View\SlideShow.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Layout\SnapToObject.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Layout\StandardRulers.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Window\Tile.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Text\TitleText.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Options\ToolOptions.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Undo20x20.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\Ungroup.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Arrange\Unlock.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Data\UpdateLink.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Text\Uppercase.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\View\Zoom.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="ribbon\Options\ZoomLineWeights.png">
+      <Filter>Ribbon Images</Filter>
+    </Image>
+    <Image Include="res\orange_pcdraft_symbol.png" />
+    <Image Include="res\idr_libr.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_main.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\welcome_checked.png" />
+    <Image Include="res\welcome_unchecked.png" />
+    <Image Include="res\mainframe_personal.png" />
+    <Image Include="res\mainframe_pro.png" />
+    <Image Include="res\folder-44x44.png" />
+    <Image Include="res\help-44x44.png" />
+    <Image Include="res\new-44x44.png" />
+    <Image Include="res\template-44x44.png" />
+    <Image Include="res\pcdraftdoc48.png" />
+    <Image Include="res\comppass-bordered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\arrow.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\attrib_drop.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\attrib_drop_lock.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\attrib_drop_opt.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\attrib_drop_query.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\attrib_pick.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\attrib_pick_query.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\bucket.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\center_snap.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\drag.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\end_snap.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\eraser.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\extrude_pline.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\extrude_ppoly.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\first.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\hand.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\handle_remove.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\handle_split.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\hconstrain.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\mid_cross.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\mid_snap.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\option_hand.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\PCDraft.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\pointing_hand.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\question.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\repeat_paste.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\rotate.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\rotate_on_pt.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\second.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\shape_drag.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\small_cross.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\split.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\text.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\vconstrain.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\which.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\zoomin.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\zoomout.cur">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ADINIT.DAT">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ribbon.xml">
+      <Filter>Ribbon Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="res\paper.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="res\paper_custom.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="res\print.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="res\print_settings_empty.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\xml1.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\xml_prin.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ribbon.bml">
+      <Filter>Ribbon Files</Filter>
+    </None>
+    <None Include="res\cursor1.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\splith.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+		<key>com.apple.print.PaperInfo.PMCustomPaper</key>
+		<dict>
+			<key>com.apple.print.ticket.creator</key>
+			<string>com.apple.jobticket</string>
+			<key>com.apple.print.ticket.itemArray</key>
+			<array>
+				<dict>
+					<key>com.apple.print.PaperInfo.PMCustomPaper</key>
+					<true/>
+					<key>com.apple.print.ticket.stateFlag</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+		</dict>

@@ -1,0 +1,869 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\ribbon.h"
+
+STRINGTABLE 
+BEGIN
+    ID_APPLICATION_MENU_LabelTitle_RESID L"Application Menu" /* LabelTitle ID_APPLICATION_MENU_LabelTitle_RESID:  */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_QUICK_ACCESS_TOOLBAR_LabelTitle_RESID L"Quick Access Toolbar" /* LabelTitle ID_QUICK_ACCESS_TOOLBAR_LabelTitle_RESID:  */
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_CMD_FILE_LabelTitle_RESID L"File" /* LabelTitle IDC_CMD_FILE_LabelTitle_RESID: These comments are optional and are inserted into the header file. */
+END
+
+cmdGroup1_SmallImages_RESID    IMAGE    "ribbon\\File\\New.png" /* SmallImages cmdGroup1_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdGroupJustification_LabelTitle_RESID L"Justification" /* LabelTitle cmdGroupJustification_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdGroupVerticalPosition_LabelTitle_RESID L"Vertical Position" /* LabelTitle cmdGroupVerticalPosition_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdGroupLineSpacing_LabelTitle_RESID L"Line Spacing" /* LabelTitle cmdGroupLineSpacing_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdGroupCase_LabelTitle_RESID L"Case" /* LabelTitle cmdGroupCase_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdGroupAlignAndDistribute_LabelTitle_RESID L"Align & Distribute" /* LabelTitle cmdGroupAlignAndDistribute_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdGroupBorderPosition_LabelTitle_RESID L"Border Position" /* LabelTitle cmdGroupBorderPosition_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdGroupPenStyle_LabelTitle_RESID L"Pen Style" /* LabelTitle cmdGroupPenStyle_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdGroupPalettes_LabelTitle_RESID L"Palettes" /* LabelTitle cmdGroupPalettes_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_FILE_NEW_DRAWING_LabelTitle_RESID L"New Document" /* LabelTitle ID_CMD_FILE_NEW_DRAWING_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_FILE_NEW_DRAWING_LargeImages_RESID    IMAGE    "ribbon\\File\\New.png" /* LargeImages ID_CMD_FILE_NEW_DRAWING_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_FILE_OPEN_LabelTitle_RESID L"Open" /* LabelTitle ID_CMD_FILE_OPEN_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_FILE_OPEN_LargeImages_RESID    IMAGE    "ribbon\\File\\Open.png" /* LargeImages ID_CMD_FILE_OPEN_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_FILE_LOAD_LAYER_LabelTitle_RESID L"Load Layer" /* LabelTitle ID_CMD_FILE_LOAD_LAYER_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_FILE_LOAD_LAYER_LargeImages_RESID    IMAGE    "ribbon\\File\\LoadLayer.png" /* LargeImages ID_CMD_FILE_LOAD_LAYER_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_FILE_RECENT_LabelTitle_RESID L"Open Recent" /* LabelTitle ID_CMD_FILE_RECENT_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_FILE_RECENT_LargeImages_RESID    IMAGE    "ribbon\\File\\Recent.png" /* LargeImages ID_CMD_FILE_RECENT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_FILE_SAVE_LabelTitle_RESID L"Save" /* LabelTitle ID_CMD_FILE_SAVE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_FILE_SAVE_SmallImages_RESID    IMAGE    "ribbon\\Save20x20.png" /* SmallImages ID_CMD_FILE_SAVE_SmallImages_RESID: (null) */
+ID_CMD_FILE_SAVE_LargeImages_RESID    IMAGE    "ribbon\\File\\Save.png" /* LargeImages ID_CMD_FILE_SAVE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_FILE_SAVE_AS_LabelTitle_RESID L"Save As" /* LabelTitle ID_CMD_FILE_SAVE_AS_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_FILE_SAVE_AS_LargeImages_RESID    IMAGE    "ribbon\\File\\SaveAs.png" /* LargeImages ID_CMD_FILE_SAVE_AS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_FILE_REVERT_LabelTitle_RESID L"Revert" /* LabelTitle ID_CMD_FILE_REVERT_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_FILE_REVERT_LargeImages_RESID    IMAGE    "ribbon\\File\\Revert.png" /* LargeImages ID_CMD_FILE_REVERT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_FILE_IMPORT_IMAGE_LabelTitle_RESID L"Import Image" /* LabelTitle ID_CMD_FILE_IMPORT_IMAGE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_FILE_IMPORT_IMAGE_LargeImages_RESID    IMAGE    "ribbon\\File\\ImportImage.png" /* LargeImages ID_CMD_FILE_IMPORT_IMAGE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_FILE_EXPORT_REPORT_LabelTitle_RESID L"Export Report" /* LabelTitle ID_CMD_FILE_EXPORT_REPORT_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_FILE_EXPORT_REPORT_LargeImages_RESID    IMAGE    "ribbon\\File\\ExportReport.png" /* LargeImages ID_CMD_FILE_EXPORT_REPORT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_FILE_EXPORT_FILE_LabelTitle_RESID L"Export File" /* LabelTitle ID_CMD_FILE_EXPORT_FILE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_FILE_EXPORT_FILE_LargeImages_RESID    IMAGE    "ribbon\\File\\ExportFile.png" /* LargeImages ID_CMD_FILE_EXPORT_FILE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_FILE_SET_DEFAULTS_LabelTitle_RESID L"Set Defaults" /* LabelTitle ID_CMD_FILE_SET_DEFAULTS_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_FILE_SET_DEFAULTS_LargeImages_RESID    IMAGE    "ribbon\\File\\SetDefaults.png" /* LargeImages ID_CMD_FILE_SET_DEFAULTS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_FILE_PAGE_SETUP_LabelTitle_RESID L"Page Setup" /* LabelTitle ID_CMD_FILE_PAGE_SETUP_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_FILE_PAGE_SETUP_LargeImages_RESID    IMAGE    "ribbon\\File\\PageSetup.png" /* LargeImages ID_CMD_FILE_PAGE_SETUP_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_FILE_PRINT_LabelTitle_RESID L"Print" /* LabelTitle ID_CMD_FILE_PRINT_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_FILE_PRINT_LargeImages_RESID    IMAGE    "ribbon\\File\\Print.png" /* LargeImages ID_CMD_FILE_PRINT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_FILE_PRINT_SPECIAL_LabelTitle_RESID L"Print Special" /* LabelTitle ID_CMD_FILE_PRINT_SPECIAL_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_FILE_PRINT_SPECIAL_LargeImages_RESID    IMAGE    "ribbon\\File\\PrintSpecial.png" /* LargeImages ID_CMD_FILE_PRINT_SPECIAL_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_FILE_QUIT_LabelTitle_RESID L"Quit" /* LabelTitle ID_CMD_FILE_QUIT_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_FILE_QUIT_LargeImages_RESID    IMAGE    "ribbon\\File\\quitPCDraft.png" /* LargeImages ID_CMD_FILE_QUIT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_WELCOME_SCREEN_LabelTitle_RESID L"Welcome Screen" /* LabelTitle ID_CMD_WELCOME_SCREEN_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_WELCOME_SCREEN_LargeImages_RESID    IMAGE    "ribbon\\File\\welcomeScreen.png" /* LargeImages ID_CMD_WELCOME_SCREEN_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    IDC_CMD_EDIT_LabelTitle_RESID L"Edit" /* LabelTitle IDC_CMD_EDIT_LabelTitle_RESID: These comments are optional and are inserted into the header file. */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_EDIT_PASTE_OPTIONS_LabelTitle_RESID L"Paste Options" /* LabelTitle ID_CMD_EDIT_PASTE_OPTIONS_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_EDIT_PASTE_OPTIONS_LargeImages_RESID    IMAGE    "ribbon\\Edit\\PasteOptions.png" /* LargeImages ID_CMD_EDIT_PASTE_OPTIONS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_EDIT_CUT_LabelTitle_RESID L"Cut" /* LabelTitle ID_CMD_EDIT_CUT_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_EDIT_CUT_SmallImages_RESID    IMAGE    "ribbon\\Edit\\Cut15x15.png" /* SmallImages ID_CMD_EDIT_CUT_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_EDIT_COPY_LabelTitle_RESID L"Copy" /* LabelTitle ID_CMD_EDIT_COPY_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_EDIT_COPY_SmallImages_RESID    IMAGE    "ribbon\\Edit\\Copy15x15.png" /* SmallImages ID_CMD_EDIT_COPY_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_EDIT_PASTE_LabelTitle_RESID L"Paste" /* LabelTitle ID_CMD_EDIT_PASTE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_EDIT_PASTE_SmallImages_RESID    IMAGE    "ribbon\\Edit\\Paste15x15.png" /* SmallImages ID_CMD_EDIT_PASTE_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_EDIT_CLEAR_LabelTitle_RESID L"Clear" /* LabelTitle ID_CMD_EDIT_CLEAR_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_EDIT_CLEAR_LargeImages_RESID    IMAGE    "ribbon\\Edit2\\clear.png" /* LargeImages ID_CMD_EDIT_CLEAR_LargeImages_RESID: (null) */
+ID_CMD_EDIT_UNDO_SmallImages_RESID    IMAGE    "ribbon\\Undo20x20.png" /* SmallImages ID_CMD_EDIT_UNDO_SmallImages_RESID: (null) */
+ID_CMD_EDIT_REDO_SmallImages_RESID    IMAGE    "ribbon\\Redo20x20.png" /* SmallImages ID_CMD_EDIT_REDO_SmallImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_EDIT_COPY_ATTRIBUTES_LabelTitle_RESID L"Copy Attributes" /* LabelTitle ID_CMD_EDIT_COPY_ATTRIBUTES_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_EDIT_COPY_ATTRIBUTES_LargeImages_RESID    IMAGE    "ribbon\\Edit\\CopyAttributes.png" /* LargeImages ID_CMD_EDIT_COPY_ATTRIBUTES_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_EDIT_APPLY_ATTRIBUTES_LabelTitle_RESID L"Apply Attributes" /* LabelTitle ID_CMD_EDIT_APPLY_ATTRIBUTES_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_EDIT_APPLY_ATTRIBUTES_LargeImages_RESID    IMAGE    "ribbon\\Edit\\ApplyAttributes.png" /* LargeImages ID_CMD_EDIT_APPLY_ATTRIBUTES_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_EDIT_ATTRIBUTE_OPTIONS_LabelTitle_RESID L"Attribute Options" /* LabelTitle ID_CMD_EDIT_ATTRIBUTE_OPTIONS_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_EDIT_ATTRIBUTE_OPTIONS_LargeImages_RESID    IMAGE    "ribbon\\Edit\\AttributeOptions.png" /* LargeImages ID_CMD_EDIT_ATTRIBUTE_OPTIONS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_EDIT_DUPLICATE_LabelTitle_RESID L"Duplicate" /* LabelTitle ID_CMD_EDIT_DUPLICATE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_EDIT_DUPLICATE_LargeImages_RESID    IMAGE    "ribbon\\Edit\\Duplicate.png" /* LargeImages ID_CMD_EDIT_DUPLICATE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_EDIT_DUPLICATE_LINEAR_LabelTitle_RESID L"Linear Duplication" /* LabelTitle ID_CMD_EDIT_DUPLICATE_LINEAR_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_EDIT_DUPLICATE_LINEAR_LargeImages_RESID    IMAGE    "ribbon\\Edit2\\Linear-Duplication.png" /* LargeImages ID_CMD_EDIT_DUPLICATE_LINEAR_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_EDIT_DUPLICATE_CIRCULAR_LabelTitle_RESID L"Circular Duplication" /* LabelTitle ID_CMD_EDIT_DUPLICATE_CIRCULAR_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_EDIT_DUPLICATE_CIRCULAR_LargeImages_RESID    IMAGE    "ribbon\\Edit2\\Circular-Duplication.png" /* LargeImages ID_CMD_EDIT_DUPLICATE_CIRCULAR_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_EDIT_SELECT_ALL_LabelTitle_RESID L"Select All" /* LabelTitle ID_CMD_EDIT_SELECT_ALL_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_EDIT_SELECT_ALL_LargeImages_RESID    IMAGE    "ribbon\\Edit\\SelectAll.png" /* LargeImages ID_CMD_EDIT_SELECT_ALL_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_EDIT_SELECT_NONE_LabelTitle_RESID L"Select None" /* LabelTitle ID_CMD_EDIT_SELECT_NONE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_EDIT_SELECT_NONE_LargeImages_RESID    IMAGE    "ribbon\\Edit\\SelectNone.png" /* LargeImages ID_CMD_EDIT_SELECT_NONE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_EDIT_SELECT_SPECIAL_LabelTitle_RESID L"Select Special" /* LabelTitle ID_CMD_EDIT_SELECT_SPECIAL_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_EDIT_SELECT_SPECIAL_LargeImages_RESID    IMAGE    "ribbon\\Edit\\SelectSpecial.png" /* LargeImages ID_CMD_EDIT_SELECT_SPECIAL_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_EDIT_MOVE_LabelTitle_RESID L"Move" /* LabelTitle ID_CMD_EDIT_MOVE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_EDIT_MOVE_LargeImages_RESID    IMAGE    "ribbon\\Edit\\Move.png" /* LargeImages ID_CMD_EDIT_MOVE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_EDIT_EXPAND_LabelTitle_RESID L"Expand" /* LabelTitle ID_CMD_EDIT_EXPAND_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_EDIT_EXPAND_LargeImages_RESID    IMAGE    "ribbon\\Edit\\Expand.png" /* LargeImages ID_CMD_EDIT_EXPAND_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_EDIT_CONTRACT_LabelTitle_RESID L"Contract" /* LabelTitle ID_CMD_EDIT_CONTRACT_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_EDIT_CONTRACT_LargeImages_RESID    IMAGE    "ribbon\\Edit\\Contract.png" /* LargeImages ID_CMD_EDIT_CONTRACT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_EDIT_RESHAPE_LabelTitle_RESID L"Reshape" /* LabelTitle ID_CMD_EDIT_RESHAPE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_EDIT_RESHAPE_LargeImages_RESID    IMAGE    "ribbon\\Edit\\Reshape.png" /* LargeImages ID_CMD_EDIT_RESHAPE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_EDIT_DATUM_LabelTitle_RESID L"Edit Datum" /* LabelTitle ID_CMD_EDIT_DATUM_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_EDIT_DATUM_LargeImages_RESID    IMAGE    "ribbon\\Edit\\EditDatum.png" /* LargeImages ID_CMD_EDIT_DATUM_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    IDC_CMD_TEXT_LabelTitle_RESID L"Text" /* LabelTitle IDC_CMD_TEXT_LabelTitle_RESID: These comments are optional and are inserted into the header file. */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_TEXT_FONT_SELECT_LabelTitle_RESID L"Font Select" /* LabelTitle ID_CMD_TEXT_FONT_SELECT_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_TEXT_FONT_SELECT_LargeImages_RESID    IMAGE    "ribbon\\Text\\SelectFont.png" /* LargeImages ID_CMD_TEXT_FONT_SELECT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_TEXT_JUSTIFICATION_LEFT_LabelTitle_RESID L"Left" /* LabelTitle ID_CMD_TEXT_JUSTIFICATION_LEFT_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_TEXT_JUSTIFICATION_LEFT_LargeImages_RESID    IMAGE    "ribbon\\Text\\JustifyLeft.png" /* LargeImages ID_CMD_TEXT_JUSTIFICATION_LEFT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_TEXT_JUSTIFICATION_CENTER_LabelTitle_RESID L"Center" /* LabelTitle ID_CMD_TEXT_JUSTIFICATION_CENTER_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_TEXT_JUSTIFICATION_CENTER_LargeImages_RESID    IMAGE    "ribbon\\Text\\JustifyCenter.png" /* LargeImages ID_CMD_TEXT_JUSTIFICATION_CENTER_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_TEXT_JUSTIFICATION_RIGHT_LabelTitle_RESID L"Right" /* LabelTitle ID_CMD_TEXT_JUSTIFICATION_RIGHT_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_TEXT_JUSTIFICATION_RIGHT_LargeImages_RESID    IMAGE    "ribbon\\Text\\JustifyRight.png" /* LargeImages ID_CMD_TEXT_JUSTIFICATION_RIGHT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_TEXT_VERTICAL_POSITION_TOP_LabelTitle_RESID L"Top" /* LabelTitle ID_CMD_TEXT_VERTICAL_POSITION_TOP_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_TEXT_VERTICAL_POSITION_TOP_LargeImages_RESID    IMAGE    "ribbon\\Text\\PositionTop.png" /* LargeImages ID_CMD_TEXT_VERTICAL_POSITION_TOP_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_TEXT_VERTICAL_POSITION_MIDDLE_LabelTitle_RESID L"Middle" /* LabelTitle ID_CMD_TEXT_VERTICAL_POSITION_MIDDLE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_TEXT_VERTICAL_POSITION_MIDDLE_LargeImages_RESID    IMAGE    "ribbon\\Text\\PositionMiddle.png" /* LargeImages ID_CMD_TEXT_VERTICAL_POSITION_MIDDLE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_TEXT_VERTICAL_POSITION_BOTTOM_LabelTitle_RESID L"Bottom" /* LabelTitle ID_CMD_TEXT_VERTICAL_POSITION_BOTTOM_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_TEXT_VERTICAL_POSITION_BOTTOM_LargeImages_RESID    IMAGE    "ribbon\\Text\\PositionBottom.png" /* LargeImages ID_CMD_TEXT_VERTICAL_POSITION_BOTTOM_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_TEXT_LINE_SPACING_SINGLE_LabelTitle_RESID L"Single" /* LabelTitle ID_CMD_TEXT_LINE_SPACING_SINGLE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_TEXT_LINE_SPACING_SINGLE_LargeImages_RESID    IMAGE    "ribbon\\Text\\LineSpacingSingle.png" /* LargeImages ID_CMD_TEXT_LINE_SPACING_SINGLE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_TEXT_LINE_SPACING_ONE_AND_A_HALF_LabelTitle_RESID L"1.5" /* LabelTitle ID_CMD_TEXT_LINE_SPACING_ONE_AND_A_HALF_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_TEXT_LINE_SPACING_ONE_AND_A_HALF_LargeImages_RESID    IMAGE    "ribbon\\Text\\LineSpace1.5.png" /* LargeImages ID_CMD_TEXT_LINE_SPACING_ONE_AND_A_HALF_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_TEXT_LINE_SPACING_DOUBLE_LabelTitle_RESID L"Double" /* LabelTitle ID_CMD_TEXT_LINE_SPACING_DOUBLE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_TEXT_LINE_SPACING_DOUBLE_LargeImages_RESID    IMAGE    "ribbon\\Text\\LineSpacingDouble.png" /* LargeImages ID_CMD_TEXT_LINE_SPACING_DOUBLE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_TEXT_CASE_UPPER_LabelTitle_RESID L"Upper" /* LabelTitle ID_CMD_TEXT_CASE_UPPER_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_TEXT_CASE_UPPER_LargeImages_RESID    IMAGE    "ribbon\\Text\\Uppercase.png" /* LargeImages ID_CMD_TEXT_CASE_UPPER_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_TEXT_CASE_LOWER_LabelTitle_RESID L"Lower" /* LabelTitle ID_CMD_TEXT_CASE_LOWER_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_TEXT_CASE_LOWER_LargeImages_RESID    IMAGE    "ribbon\\Text\\Lowercase.png" /* LargeImages ID_CMD_TEXT_CASE_LOWER_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_TEXT_CASE_TITLE_LabelTitle_RESID L"Title" /* LabelTitle ID_CMD_TEXT_CASE_TITLE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_TEXT_CASE_TITLE_LargeImages_RESID    IMAGE    "ribbon\\Text\\TitleText.png" /* LargeImages ID_CMD_TEXT_CASE_TITLE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_TEXT_SELECT_ALL_LabelTitle_RESID L"Select All Text" /* LabelTitle ID_CMD_TEXT_SELECT_ALL_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_TEXT_SELECT_ALL_LargeImages_RESID    IMAGE    "ribbon\\Text\\SelectAllText.png" /* LargeImages ID_CMD_TEXT_SELECT_ALL_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_TEXT_HIDE_LabelTitle_RESID L"Hide Text" /* LabelTitle ID_CMD_TEXT_HIDE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_TEXT_HIDE_LargeImages_RESID    IMAGE    "ribbon\\Text\\HideText.png" /* LargeImages ID_CMD_TEXT_HIDE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_TEXT_COLOR_LabelTitle_RESID L"Text Color" /* LabelTitle ID_CMD_TEXT_COLOR_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_TEXT_COLOR_LargeImages_RESID    IMAGE    "ribbon\\Options\\EditColor.png" /* LargeImages ID_CMD_TEXT_COLOR_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    IDC_CMD_OPTIONS_LabelTitle_RESID L"Options" /* LabelTitle IDC_CMD_OPTIONS_LabelTitle_RESID: These comments are optional and are inserted into the header file. */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPTIONS_BORDER_POSITION_INSIDE_LabelTitle_RESID L"Inside" /* LabelTitle ID_CMD_OPTIONS_BORDER_POSITION_INSIDE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_OPTIONS_BORDER_POSITION_INSIDE_LargeImages_RESID    IMAGE    "ribbon\\Options\\BorderInside.png" /* LargeImages ID_CMD_OPTIONS_BORDER_POSITION_INSIDE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPTIONS_BORDER_POSITION_CENTER_LabelTitle_RESID L"Center" /* LabelTitle ID_CMD_OPTIONS_BORDER_POSITION_CENTER_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_OPTIONS_BORDER_POSITION_CENTER_LargeImages_RESID    IMAGE    "ribbon\\Options\\BorderCenter.png" /* LargeImages ID_CMD_OPTIONS_BORDER_POSITION_CENTER_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPTIONS_BORDER_POSITION_OUTSIDE_LabelTitle_RESID L"Outside" /* LabelTitle ID_CMD_OPTIONS_BORDER_POSITION_OUTSIDE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_OPTIONS_BORDER_POSITION_OUTSIDE_LargeImages_RESID    IMAGE    "ribbon\\Options\\BorderOutside.png" /* LargeImages ID_CMD_OPTIONS_BORDER_POSITION_OUTSIDE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPTIONS_PEN_STYLE_BLADE_LabelTitle_RESID L"Blade" /* LabelTitle ID_CMD_OPTIONS_PEN_STYLE_BLADE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_OPTIONS_PEN_STYLE_BLADE_LargeImages_RESID    IMAGE    "ribbon\\Options\\PenStyleBlade.png" /* LargeImages ID_CMD_OPTIONS_PEN_STYLE_BLADE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPTIONS_PEN_STYLE_ROUND_LabelTitle_RESID L"Round" /* LabelTitle ID_CMD_OPTIONS_PEN_STYLE_ROUND_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_OPTIONS_PEN_STYLE_ROUND_LargeImages_RESID    IMAGE    "ribbon\\Options\\PenStyleRound.png" /* LargeImages ID_CMD_OPTIONS_PEN_STYLE_ROUND_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPTIONS_ZOOM_LINE_WEIGHTS_LabelTitle_RESID L"Zoom Line Weights" /* LabelTitle ID_CMD_OPTIONS_ZOOM_LINE_WEIGHTS_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_OPTIONS_ZOOM_LINE_WEIGHTS_LargeImages_RESID    IMAGE    "ribbon\\Options\\ZoomLineWeights.png" /* LargeImages ID_CMD_OPTIONS_ZOOM_LINE_WEIGHTS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPTIONS_HIDE_SHOW_LINE_STYLES_LabelTitle_RESID L"Hide/Show Line Styles" /* LabelTitle ID_CMD_OPTIONS_HIDE_SHOW_LINE_STYLES_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_OPTIONS_HIDE_SHOW_LINE_STYLES_LargeImages_RESID    IMAGE    "ribbon\\Options\\HideShowLineStyles.png" /* LargeImages ID_CMD_OPTIONS_HIDE_SHOW_LINE_STYLES_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPTIONS_EDIT_LINE_STYLES_LabelTitle_RESID L"Edit Line Styles" /* LabelTitle ID_CMD_OPTIONS_EDIT_LINE_STYLES_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_OPTIONS_EDIT_LINE_STYLES_LargeImages_RESID    IMAGE    "ribbon\\Options\\EditLineStyles.png" /* LargeImages ID_CMD_OPTIONS_EDIT_LINE_STYLES_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPTIONS_NEW_COLOR_LabelTitle_RESID L"New Color" /* LabelTitle ID_CMD_OPTIONS_NEW_COLOR_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_OPTIONS_NEW_COLOR_LargeImages_RESID    IMAGE    "ribbon\\Options\\NewColor.png" /* LargeImages ID_CMD_OPTIONS_NEW_COLOR_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPTIONS_NEW_GRADIENT_LabelTitle_RESID L"New Gradient" /* LabelTitle ID_CMD_OPTIONS_NEW_GRADIENT_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_OPTIONS_NEW_GRADIENT_LargeImages_RESID    IMAGE    "ribbon\\Options\\NewGradient.png" /* LargeImages ID_CMD_OPTIONS_NEW_GRADIENT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPTIONS_NEW_PATTERN_LabelTitle_RESID L"New Pattern" /* LabelTitle ID_CMD_OPTIONS_NEW_PATTERN_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_OPTIONS_NEW_PATTERN_LargeImages_RESID    IMAGE    "ribbon\\Options\\NewPattern.png" /* LargeImages ID_CMD_OPTIONS_NEW_PATTERN_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPTIONS_EDIT_COLORS_LabelTitle_RESID L"Edit Colors" /* LabelTitle ID_CMD_OPTIONS_EDIT_COLORS_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_OPTIONS_EDIT_COLORS_LargeImages_RESID    IMAGE    "ribbon\\Options\\EditColor.png" /* LargeImages ID_CMD_OPTIONS_EDIT_COLORS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPTIONS_EDIT_PATTERN_GRADIENT_LabelTitle_RESID L"Edit Patt/Grad" /* LabelTitle ID_CMD_OPTIONS_EDIT_PATTERN_GRADIENT_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_OPTIONS_EDIT_PATTERN_GRADIENT_LargeImages_RESID    IMAGE    "ribbon\\Options\\EditPatternGradient.png" /* LargeImages ID_CMD_OPTIONS_EDIT_PATTERN_GRADIENT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPTIONS_DUPLICATE_PATTERN_GRADIENT_LabelTitle_RESID L"Duplicate Patt/Grad" /* LabelTitle ID_CMD_OPTIONS_DUPLICATE_PATTERN_GRADIENT_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_OPTIONS_DUPLICATE_PATTERN_GRADIENT_LargeImages_RESID    IMAGE    "ribbon\\Options\\DuplicatePatternGradient.png" /* LargeImages ID_CMD_OPTIONS_DUPLICATE_PATTERN_GRADIENT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPTIONS_HIDE_SHOW_FILLS_LabelTitle_RESID L"Hide/Show Fills" /* LabelTitle ID_CMD_OPTIONS_HIDE_SHOW_FILLS_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_OPTIONS_HIDE_SHOW_FILLS_LargeImages_RESID    IMAGE    "ribbon\\Options\\HideShowFills.png" /* LargeImages ID_CMD_OPTIONS_HIDE_SHOW_FILLS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPTIONS_CROSS_CURSOR_LabelTitle_RESID L"Cross Cursor" /* LabelTitle ID_CMD_OPTIONS_CROSS_CURSOR_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_OPTIONS_CROSS_CURSOR_LargeImages_RESID    IMAGE    "ribbon\\Options\\CrossCursor.png" /* LargeImages ID_CMD_OPTIONS_CROSS_CURSOR_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPTIONS_TOOL_LabelTitle_RESID L"Tools Options" /* LabelTitle ID_CMD_OPTIONS_TOOL_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_OPTIONS_TOOL_LargeImages_RESID    IMAGE    "ribbon\\Options\\ToolOptions.png" /* LargeImages ID_CMD_OPTIONS_TOOL_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPTIONS_AUTO_SAVE_LabelTitle_RESID L"Auto Save" /* LabelTitle ID_CMD_OPTIONS_AUTO_SAVE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_OPTIONS_AUTO_SAVE_LargeImages_RESID    IMAGE    "ribbon\\Options\\AutoSave.png" /* LargeImages ID_CMD_OPTIONS_AUTO_SAVE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_OPTIONS_GUIDES_LabelTitle_RESID L"Guides" /* LabelTitle ID_CMD_OPTIONS_GUIDES_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_OPTIONS_GUIDES_LargeImages_RESID    IMAGE    "ribbon\\Options\\Guides.png" /* LargeImages ID_CMD_OPTIONS_GUIDES_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    IDC_CMD_ARRANGE_LabelTitle_RESID L"Arrange" /* LabelTitle IDC_CMD_ARRANGE_LabelTitle_RESID: These comments are optional and are inserted into the header file. */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_ARRANGE_BRING_TO_FRONT_LabelTitle_RESID L"Bring to Front" /* LabelTitle ID_CMD_ARRANGE_BRING_TO_FRONT_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_ARRANGE_BRING_TO_FRONT_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\BringToFront.png" /* LargeImages ID_CMD_ARRANGE_BRING_TO_FRONT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_ARRANGE_SEND_TO_BACK_LabelTitle_RESID L"Send to Back" /* LabelTitle ID_CMD_ARRANGE_SEND_TO_BACK_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_ARRANGE_SEND_TO_BACK_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\SendToBack.png" /* LargeImages ID_CMD_ARRANGE_SEND_TO_BACK_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_ARRANGE_MOVE_FORWARD_LabelTitle_RESID L"Move Forward" /* LabelTitle ID_CMD_ARRANGE_MOVE_FORWARD_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_ARRANGE_MOVE_FORWARD_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\MoveForward.png" /* LargeImages ID_CMD_ARRANGE_MOVE_FORWARD_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_ARRANGE_MOVE_BACK_LabelTitle_RESID L"Move Back" /* LabelTitle ID_CMD_ARRANGE_MOVE_BACK_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_ARRANGE_MOVE_BACK_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\MoveBack.png" /* LargeImages ID_CMD_ARRANGE_MOVE_BACK_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_ARRANGE_GROUP_LabelTitle_RESID L"Group" /* LabelTitle ID_CMD_ARRANGE_GROUP_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_ARRANGE_GROUP_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\Group.png" /* LargeImages ID_CMD_ARRANGE_GROUP_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_ARRANGE_UNGROUP_LabelTitle_RESID L"Ungroup" /* LabelTitle ID_CMD_ARRANGE_UNGROUP_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_ARRANGE_UNGROUP_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\Ungroup.png" /* LargeImages ID_CMD_ARRANGE_UNGROUP_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_ARRANGE_ROTATE_LabelTitle_RESID L"Rotate" /* LabelTitle ID_CMD_ARRANGE_ROTATE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_ARRANGE_ROTATE_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\Rotate.png" /* LargeImages ID_CMD_ARRANGE_ROTATE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_ARRANGE_ROTATE_TO_ZERO_LabelTitle_RESID L"Rotate to Zero" /* LabelTitle ID_CMD_ARRANGE_ROTATE_TO_ZERO_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_ARRANGE_ROTATE_TO_ZERO_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\RotateToZero.png" /* LargeImages ID_CMD_ARRANGE_ROTATE_TO_ZERO_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_ARRANGE_ROTATE_OPTIONS_LabelTitle_RESID L"Rotate Options" /* LabelTitle ID_CMD_ARRANGE_ROTATE_OPTIONS_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_ARRANGE_ROTATE_OPTIONS_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\RotateOptions.png" /* LargeImages ID_CMD_ARRANGE_ROTATE_OPTIONS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_ARRANGE_FLIP_HORIZONTAL_LabelTitle_RESID L"Flip Horizontal" /* LabelTitle ID_CMD_ARRANGE_FLIP_HORIZONTAL_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_ARRANGE_FLIP_HORIZONTAL_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\FlipHorizontal.png" /* LargeImages ID_CMD_ARRANGE_FLIP_HORIZONTAL_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_ARRANGE_FLIP_VERTICAL_LabelTitle_RESID L"Flip Vertical" /* LabelTitle ID_CMD_ARRANGE_FLIP_VERTICAL_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_ARRANGE_FLIP_VERTICAL_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\FlipVertical.png" /* LargeImages ID_CMD_ARRANGE_FLIP_VERTICAL_LargeImages_RESID: (null) */
+ID_CMD_ARRANGE_ALIGN_BOTTOM_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\AlignBottom18x18.png" /* LargeImages ID_CMD_ARRANGE_ALIGN_BOTTOM_LargeImages_RESID: (null) */
+ID_CMD_ARRANGE_ALIGN_TOP_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\AlignTop18x18.png" /* LargeImages ID_CMD_ARRANGE_ALIGN_TOP_LargeImages_RESID: (null) */
+ID_CMD_ARRANGE_ALIGN_VERTICAL_CENTER_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\AlignVerticalCenter18x18.png" /* LargeImages ID_CMD_ARRANGE_ALIGN_VERTICAL_CENTER_LargeImages_RESID: (null) */
+ID_CMD_ARRANGE_ALIGN_LEFT_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\AlignLeft18x18.png" /* LargeImages ID_CMD_ARRANGE_ALIGN_LEFT_LargeImages_RESID: (null) */
+ID_CMD_ARRANGE_ALIGN_RIGHT_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\AlignRight18x18.png" /* LargeImages ID_CMD_ARRANGE_ALIGN_RIGHT_LargeImages_RESID: (null) */
+ID_CMD_ARRANGE_ALIGN_HORIZONTAL_CENTER_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\AlignHorizontalCenter18x18.png" /* LargeImages ID_CMD_ARRANGE_ALIGN_HORIZONTAL_CENTER_LargeImages_RESID: (null) */
+ID_CMD_ARRANGE_DISTRIBUTE_HORIZONTAL_CENTER_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\DistributeHorizontalCenter19x19.png" /* LargeImages ID_CMD_ARRANGE_DISTRIBUTE_HORIZONTAL_CENTER_LargeImages_RESID: (null) */
+ID_CMD_ARRANGE_DISTRIBUTE_HORIZONTAL_DATUM_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\DistributeHorizontalDatum19x19.png" /* LargeImages ID_CMD_ARRANGE_DISTRIBUTE_HORIZONTAL_DATUM_LargeImages_RESID: (null) */
+ID_CMD_ARRANGE_DISTRIBUTE_VERTICAL_CENTER_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\DistributeVerticalCenter19x19.png" /* LargeImages ID_CMD_ARRANGE_DISTRIBUTE_VERTICAL_CENTER_LargeImages_RESID: (null) */
+ID_CMD_ARRANGE_DISTRIBUTE_VERTICAL_DATUM_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\DistributeVerticalDatum19x19.png" /* LargeImages ID_CMD_ARRANGE_DISTRIBUTE_VERTICAL_DATUM_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_ARRANGE_ALIGN_AGAIN_LabelTitle_RESID L"Align Again" /* LabelTitle ID_CMD_ARRANGE_ALIGN_AGAIN_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_ARRANGE_ALIGN_AGAIN_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\AlignAgain.png" /* LargeImages ID_CMD_ARRANGE_ALIGN_AGAIN_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_ARRANGE_ALIGN_OPTIONS_LabelTitle_RESID L"Align Options" /* LabelTitle ID_CMD_ARRANGE_ALIGN_OPTIONS_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_ARRANGE_ALIGN_OPTIONS_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\AlignOptions.png" /* LargeImages ID_CMD_ARRANGE_ALIGN_OPTIONS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_ARRANGE_DISTRIBUTE_ON_LINE_LabelTitle_RESID L"Distribute on Line" /* LabelTitle ID_CMD_ARRANGE_DISTRIBUTE_ON_LINE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_ARRANGE_DISTRIBUTE_ON_LINE_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\DistributeOnLine.png" /* LargeImages ID_CMD_ARRANGE_DISTRIBUTE_ON_LINE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_ARRANGE_LOCK_LabelTitle_RESID L"Lock" /* LabelTitle ID_CMD_ARRANGE_LOCK_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_ARRANGE_LOCK_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\Lock.png" /* LargeImages ID_CMD_ARRANGE_LOCK_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_ARRANGE_UNLOCK_LabelTitle_RESID L"Unlock" /* LabelTitle ID_CMD_ARRANGE_UNLOCK_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_ARRANGE_UNLOCK_LargeImages_RESID    IMAGE    "ribbon\\Arrange\\Unlock.png" /* LargeImages ID_CMD_ARRANGE_UNLOCK_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    IDC_CMD_DATA_LabelTitle_RESID L"Data" /* LabelTitle IDC_CMD_DATA_LabelTitle_RESID: These comments are optional and are inserted into the header file. */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_DATA_EDIT_FIELD_NAMES_LabelTitle_RESID L"Edit Field Names" /* LabelTitle ID_CMD_DATA_EDIT_FIELD_NAMES_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_DATA_EDIT_FIELD_NAMES_LargeImages_RESID    IMAGE    "ribbon\\Data\\EditFieldNames.png" /* LargeImages ID_CMD_DATA_EDIT_FIELD_NAMES_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_DATA_EDIT_OBJECT_INFO_LabelTitle_RESID L"Edit Object Info" /* LabelTitle ID_CMD_DATA_EDIT_OBJECT_INFO_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_DATA_EDIT_OBJECT_INFO_LargeImages_RESID    IMAGE    "ribbon\\Data\\EditObjectInfo.png" /* LargeImages ID_CMD_DATA_EDIT_OBJECT_INFO_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_DATA_FIND_AND_REPLACE_LabelTitle_RESID L"Find & Replace" /* LabelTitle ID_CMD_DATA_FIND_AND_REPLACE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_DATA_FIND_AND_REPLACE_LargeImages_RESID    IMAGE    "ribbon\\Data\\FindReplace.png" /* LargeImages ID_CMD_DATA_FIND_AND_REPLACE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_DATA_REPORT_FORMATS_LabelTitle_RESID L"Report Formats" /* LabelTitle ID_CMD_DATA_REPORT_FORMATS_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_DATA_REPORT_FORMATS_LargeImages_RESID    IMAGE    "ribbon\\Data\\ReportFormats.png" /* LargeImages ID_CMD_DATA_REPORT_FORMATS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_DATA_PRINT_REPORT_LabelTitle_RESID L"Print Report" /* LabelTitle ID_CMD_DATA_PRINT_REPORT_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_DATA_PRINT_REPORT_LargeImages_RESID    IMAGE    "ribbon\\Data\\PrintReport.png" /* LargeImages ID_CMD_DATA_PRINT_REPORT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_DATA_UPDATE_LINK_LabelTitle_RESID L"Update Link" /* LabelTitle ID_CMD_DATA_UPDATE_LINK_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_DATA_UPDATE_LINK_LargeImages_RESID    IMAGE    "ribbon\\Data\\UpdateLink.png" /* LargeImages ID_CMD_DATA_UPDATE_LINK_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_DATA_BREAK_LINK_LabelTitle_RESID L"Break Link" /* LabelTitle ID_CMD_DATA_BREAK_LINK_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_DATA_BREAK_LINK_LargeImages_RESID    IMAGE    "ribbon\\Data\\BreakLink.png" /* LargeImages ID_CMD_DATA_BREAK_LINK_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    IDC_CMD_LAYOUT_LabelTitle_RESID L"Layout" /* LabelTitle IDC_CMD_LAYOUT_LabelTitle_RESID: These comments are optional and are inserted into the header file. */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_LAYOUT_SET_SCALE_AND_UNITS_LabelTitle_RESID L"Set Scale & Units" /* LabelTitle ID_CMD_LAYOUT_SET_SCALE_AND_UNITS_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_LAYOUT_SET_SCALE_AND_UNITS_LargeImages_RESID    IMAGE    "ribbon\\Layout\\SetScaleUnits.png" /* LargeImages ID_CMD_LAYOUT_SET_SCALE_AND_UNITS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_LAYOUT_SET_GRID_LabelTitle_RESID L"Set Grid" /* LabelTitle ID_CMD_LAYOUT_SET_GRID_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_LAYOUT_SET_GRID_LargeImages_RESID    IMAGE    "ribbon\\Layout\\SetGrid.png" /* LargeImages ID_CMD_LAYOUT_SET_GRID_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_LAYOUT_SET_ANGLE_SNAP_LabelTitle_RESID L"Set Angle Snap" /* LabelTitle ID_CMD_LAYOUT_SET_ANGLE_SNAP_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_LAYOUT_SET_ANGLE_SNAP_LargeImages_RESID    IMAGE    "ribbon\\Layout\\SetAngle.png" /* LargeImages ID_CMD_LAYOUT_SET_ANGLE_SNAP_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_LAYOUT_HIDE_SHOW_RULERS_LabelTitle_RESID L"Hide/Show Rulers" /* LabelTitle ID_CMD_LAYOUT_HIDE_SHOW_RULERS_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_LAYOUT_HIDE_SHOW_RULERS_LargeImages_RESID    IMAGE    "ribbon\\Layout\\ShowHideRulers.png" /* LargeImages ID_CMD_LAYOUT_HIDE_SHOW_RULERS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_LAYOUT_SCALE_RULERS_LabelTitle_RESID L"Scale Rulers" /* LabelTitle ID_CMD_LAYOUT_SCALE_RULERS_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_LAYOUT_SCALE_RULERS_LargeImages_RESID    IMAGE    "ribbon\\Layout\\ScaledRulers.png" /* LargeImages ID_CMD_LAYOUT_SCALE_RULERS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_LAYOUT_STANDARD_RULERS_LabelTitle_RESID L"Standard Rulers" /* LabelTitle ID_CMD_LAYOUT_STANDARD_RULERS_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_LAYOUT_STANDARD_RULERS_LargeImages_RESID    IMAGE    "ribbon\\Layout\\StandardRulers.png" /* LargeImages ID_CMD_LAYOUT_STANDARD_RULERS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_LAYOUT_SNAP_TO_OBJECT_LabelTitle_RESID L"Snap to Object" /* LabelTitle ID_CMD_LAYOUT_SNAP_TO_OBJECT_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_LAYOUT_SNAP_TO_OBJECT_LargeImages_RESID    IMAGE    "ribbon\\Layout\\SnapToObject.png" /* LargeImages ID_CMD_LAYOUT_SNAP_TO_OBJECT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_LAYOUT_SNAP_TO_GUIDES_LabelTitle_RESID L"Snap to Guides" /* LabelTitle ID_CMD_LAYOUT_SNAP_TO_GUIDES_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_LAYOUT_SNAP_TO_GUIDES_LargeImages_RESID    IMAGE    "ribbon\\Layout\\SnapToGuides.png" /* LargeImages ID_CMD_LAYOUT_SNAP_TO_GUIDES_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_LAYOUT_SHOW_GUIDE_LINES_LabelTitle_RESID L"Show Guide Lines" /* LabelTitle ID_CMD_LAYOUT_SHOW_GUIDE_LINES_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_LAYOUT_SHOW_GUIDE_LINES_LargeImages_RESID    IMAGE    "ribbon\\Layout\\ShowGuides.png" /* LargeImages ID_CMD_LAYOUT_SHOW_GUIDE_LINES_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_LAYOUT_HIDE_SHOW_GRID_LINES_LabelTitle_RESID L"Hide/Show Grid Lines" /* LabelTitle ID_CMD_LAYOUT_HIDE_SHOW_GRID_LINES_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_LAYOUT_HIDE_SHOW_GRID_LINES_LargeImages_RESID    IMAGE    "ribbon\\Layout\\ShowHideGrid.png" /* LargeImages ID_CMD_LAYOUT_HIDE_SHOW_GRID_LINES_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_LAYOUT_HIDE_SHOW_PAGE_BREAKS_LabelTitle_RESID L"Hide/Show Page Breaks" /* LabelTitle ID_CMD_LAYOUT_HIDE_SHOW_PAGE_BREAKS_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_LAYOUT_HIDE_SHOW_PAGE_BREAKS_LargeImages_RESID    IMAGE    "ribbon\\Layout\\ShowHidePageBreaks.png" /* LargeImages ID_CMD_LAYOUT_HIDE_SHOW_PAGE_BREAKS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_LAYOUT_DRAWING_SIZE_LabelTitle_RESID L"Drawing Size" /* LabelTitle ID_CMD_LAYOUT_DRAWING_SIZE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_LAYOUT_DRAWING_SIZE_LargeImages_RESID    IMAGE    "ribbon\\Layout\\DrawingSize.png" /* LargeImages ID_CMD_LAYOUT_DRAWING_SIZE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_LAYOUT_POSITION_LabelTitle_RESID L"Position" /* LabelTitle ID_CMD_LAYOUT_POSITION_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_LAYOUT_POSITION_LargeImages_RESID    IMAGE    "ribbon\\Layout\\Position.png" /* LargeImages ID_CMD_LAYOUT_POSITION_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    IDC_CMD_VIEW_LabelTitle_RESID L"View" /* LabelTitle IDC_CMD_VIEW_LabelTitle_RESID: These comments are optional and are inserted into the header file. */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_VIEW_ZOOM_LabelTitle_RESID L"Zoom" /* LabelTitle ID_CMD_VIEW_ZOOM_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_VIEW_ZOOM_LargeImages_RESID    IMAGE    "ribbon\\View\\Zoom.png" /* LargeImages ID_CMD_VIEW_ZOOM_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_VIEW_RESTORE_PREVIOUS_ZOOM_LabelTitle_RESID L"Restore Prev. Zoom" /* LabelTitle ID_CMD_VIEW_RESTORE_PREVIOUS_ZOOM_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_VIEW_RESTORE_PREVIOUS_ZOOM_LargeImages_RESID    IMAGE    "ribbon\\View\\RestoreZoom.png" /* LargeImages ID_CMD_VIEW_RESTORE_PREVIOUS_ZOOM_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_VIEW_HOME_VIEW_LabelTitle_RESID L"Home View" /* LabelTitle ID_CMD_VIEW_HOME_VIEW_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_VIEW_HOME_VIEW_LargeImages_RESID    IMAGE    "ribbon\\View\\HomeView.png" /* LargeImages ID_CMD_VIEW_HOME_VIEW_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_VIEW_HIDE_SHOW_CURSOR_POSITION_LabelTitle_RESID L"Hide/Show Cursor Pos." /* LabelTitle ID_CMD_VIEW_HIDE_SHOW_CURSOR_POSITION_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_VIEW_HIDE_SHOW_CURSOR_POSITION_LargeImages_RESID    IMAGE    "ribbon\\View\\ShowHideCursorPosition.png" /* LargeImages ID_CMD_VIEW_HIDE_SHOW_CURSOR_POSITION_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_VIEW_SHOW_HIDE_AREA_LabelTitle_RESID L"Hide/Show Area" /* LabelTitle ID_CMD_VIEW_SHOW_HIDE_AREA_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_VIEW_SHOW_HIDE_AREA_LargeImages_RESID    IMAGE    "ribbon\\View\\ShowHideArea.png" /* LargeImages ID_CMD_VIEW_SHOW_HIDE_AREA_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_VIEW_SLIDE_SHOW_LabelTitle_RESID L"Slide Show" /* LabelTitle ID_CMD_VIEW_SLIDE_SHOW_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_VIEW_SLIDE_SHOW_LargeImages_RESID    IMAGE    "ribbon\\View\\SlideShow.png" /* LargeImages ID_CMD_VIEW_SLIDE_SHOW_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_VIEW_PALETTE_TOOL_LabelTitle_RESID L"Tool" /* LabelTitle ID_CMD_VIEW_PALETTE_TOOL_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_VIEW_PALETTE_TOOL_LargeImages_RESID    IMAGE    "ribbon\\View\\PaletteTool.png" /* LargeImages ID_CMD_VIEW_PALETTE_TOOL_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_VIEW_PALETTE_DIMENSIONS_LabelTitle_RESID L"Dimensions" /* LabelTitle ID_CMD_VIEW_PALETTE_DIMENSIONS_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_VIEW_PALETTE_DIMENSIONS_LargeImages_RESID    IMAGE    "ribbon\\View\\PaletteDimension.png" /* LargeImages ID_CMD_VIEW_PALETTE_DIMENSIONS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_VIEW_PALETTE_ACCESSORY_LabelTitle_RESID L"Accessory" /* LabelTitle ID_CMD_VIEW_PALETTE_ACCESSORY_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_VIEW_PALETTE_ACCESSORY_LargeImages_RESID    IMAGE    "ribbon\\View\\PaletteAccessory.png" /* LargeImages ID_CMD_VIEW_PALETTE_ACCESSORY_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_VIEW_PALETTE_SHOW_SIZE_LabelTitle_RESID L"Show Size" /* LabelTitle ID_CMD_VIEW_PALETTE_SHOW_SIZE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_VIEW_PALETTE_SHOW_SIZE_LargeImages_RESID    IMAGE    "ribbon\\View\\PaletteShowSize.png" /* LargeImages ID_CMD_VIEW_PALETTE_SHOW_SIZE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_VIEW_PALETTE_LIBRARY_LabelTitle_RESID L"Library" /* LabelTitle ID_CMD_VIEW_PALETTE_LIBRARY_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_VIEW_PALETTE_LIBRARY_LargeImages_RESID    IMAGE    "ribbon\\View\\PaletteLibrary.png" /* LargeImages ID_CMD_VIEW_PALETTE_LIBRARY_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_VIEW_PALETTE_LAYERS_LabelTitle_RESID L"Layers" /* LabelTitle ID_CMD_VIEW_PALETTE_LAYERS_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_VIEW_PALETTE_LAYERS_LargeImages_RESID    IMAGE    "ribbon\\View\\PaletteLayers.png" /* LargeImages ID_CMD_VIEW_PALETTE_LAYERS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    IDC_CMD_WINDOW_LabelTitle_RESID L"Window" /* LabelTitle IDC_CMD_WINDOW_LabelTitle_RESID: These comments are optional and are inserted into the header file. */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_CMD_WINDOW_SHOW_HIDE_ALL_PALETTES_LabelTitle_RESID L"Hide/Show All Palettes" /* LabelTitle ID_CMD_WINDOW_SHOW_HIDE_ALL_PALETTES_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_WINDOW_SHOW_HIDE_ALL_PALETTES_LargeImages_RESID    IMAGE    "ribbon\\Window\\ShowHideAllPlettes.png" /* LargeImages ID_CMD_WINDOW_SHOW_HIDE_ALL_PALETTES_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_WINDOW_CASCADE_LabelTitle_RESID L"Cascade" /* LabelTitle ID_CMD_WINDOW_CASCADE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_WINDOW_CASCADE_LargeImages_RESID    IMAGE    "ribbon\\Window\\Cascade.png" /* LargeImages ID_CMD_WINDOW_CASCADE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_WINDOW_TILE_LabelTitle_RESID L"Tile" /* LabelTitle ID_CMD_WINDOW_TILE_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_WINDOW_TILE_LargeImages_RESID    IMAGE    "ribbon\\Window\\Tile.png" /* LargeImages ID_CMD_WINDOW_TILE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_CMD_WINDOW_ARRANGE_ICONS_LabelTitle_RESID L"Arrange Icons" /* LabelTitle ID_CMD_WINDOW_ARRANGE_ICONS_LabelTitle_RESID: (null) */
+END
+
+ID_CMD_WINDOW_ARRANGE_ICONS_LargeImages_RESID    IMAGE    "ribbon\\Window\\ArrangeIcons.png" /* LargeImages ID_CMD_WINDOW_ARRANGE_ICONS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    IDC_CMD_PROPERTIES_LabelTitle_RESID L"Properties" /* LabelTitle IDC_CMD_PROPERTIES_LabelTitle_RESID: These comments are optional and are inserted into the header file. */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMRUList_LabelTitle_RESID L"MRU List" /* LabelTitle cmdMRUList_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_CMD_Test_LabelTitle_RESID L"Test" /* LabelTitle IDC_CMD_Test_LabelTitle_RESID: These comments are optional and are inserted into the header file. */
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_CMD_EXIT_LabelTitle_RESID L"Exit Button" /* LabelTitle IDC_CMD_EXIT_LabelTitle_RESID: (null) */
+END
+
+APPLICATION_RIBBON    UIFILE    "ribbon.bml"
